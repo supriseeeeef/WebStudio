@@ -1,0 +1,213 @@
+/*Important*/
+li{
+    list-style-type: none;
+}
+
+a{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.container {
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.section{
+    display: block;
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.list{
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+/*Header*/
+
+.border-header{
+    border-bottom: 1px solid #ECECEC;
+}
+
+.header{
+    display: flex;
+    height: 80px;
+    align-items: center;
+    justify-content: start;
+}
+
+.span-logo1{
+    color: #2196F3;
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    text-align: left;
+}
+
+.span-logo2{
+    color: #000000;
+    font-family: Oleo Script;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    margin-right: 93px;
+}
+
+.main-nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-nav{
+    display: flex;
+}
+
+.site-nav-item,
+.nav-contacts-item{
+    margin-right: 50px;
+}
+
+.site-nav-item:last-child,
+.nav-contacts-item:last-child{
+    margin-right: 0;
+}
+
+.nav-links{
+    color: #212121;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    text-align: left;    
+}
+
+
+.nav-links:hover{
+    color: #2196F3;
+}
+
+.active{
+    color: #2196F3;
+}
+
+.nav-contacts{
+    display: flex;
+}
+
+.phone-and-email{
+    color: #757575;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    text-align: left;    
+}
+
+.phone-and-email:hover{
+    color: #2196F3;
+}
+
+/*Main*/
+
+.main{
+    margin: 94px 215px;
+}
+
+.filter {
+    text-align: center;
+}
+
+.main-buttons{
+    color: #212121;
+    background-color: #F5F4FA;
+    border: none;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+    text-align: center;    
+    margin: 0 4px;
+    border-radius: 4px;
+    padding: 6px 22px;
+    cursor: pointer;
+}
+
+.main-buttons:hover,
+.main-buttons:focus{
+    background-color: #2196F3;
+    color: white;
+}
+
+.sites {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 34px;
+    gap: 30px;
+}
+
+.sites-li {
+    flex-basis: 30%;
+}
+
+.portolio-img {
+    max-width: 100%;
+    height: auto;
+}
+
+.main-text{
+    color: #212121;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    text-align: left;    
+}
+
+.main-text-link{
+    color: #757575;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    text-align: left;
+}
+
+/*Footer*/
+
+.footer-section{
+    background-color: #2F303A;
+    align-items: baseline;
+    padding: 60px 0;
+}
+
+.span-logo-footer{
+    color: #FFFFFF;
+}
+
+.address{
+    margin-top: 20px;
+}
+
+.footer-contacts{
+    width: 231px;
+    margin: 0;
+}
+
+.geolocation{
+    color: #FFFFFF;
+}
