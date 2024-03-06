@@ -1,4 +1,10 @@
 /*Important*/
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
 li{
     list-style-type: none;
 }
@@ -91,7 +97,7 @@ a{
     font-weight: 500;
     line-height: 16px;
     letter-spacing: 0.02em;
-    text-align: left;    
+    transition: color 0.4s ease;
 }
 
 
@@ -113,8 +119,8 @@ a{
     font-size: 14px;
     font-weight: 500;
     line-height: 16px;
-    letter-spacing: 0.02em;
-    text-align: left;    
+    letter-spacing: 0.02em; 
+    transition: color 0.4s ease;   
 }
 
 .phone-and-email:hover{
@@ -154,10 +160,10 @@ a{
     text-transform: uppercase;
 }
 
-.button1 {
+.order-button {
     color: #FFFFFF;
     background-color: #2196F3;
-    text-shadow: 5px #2F303A;
+    text-shadow: 1px 1px 1px #2F303A;
     box-shadow: 0px 4px 4px #000000;
     border: none;
     border-radius: 4px;
@@ -170,6 +176,15 @@ a{
     padding: 10px 32px;
     text-align: center;
     cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.order-button:hover {
+    transform: scale(1.10);
+}
+
+.order-button:active {
+    transform: scale(0.90);
 }
 
 /*Main 2nd section*/
@@ -314,10 +329,17 @@ a{
     margin-left: 236px;
 }
 
-.icons:hover{
-    background-color:#2196F3;
+.icons {
+    background-color: transparent;
+    border-radius: 50%;
+    transition: background-color 0.4s ease;
+}
+
+.icons:hover {
+    background-color: #2196F3;
     border-radius: 50%;
 }
+
 
 .social-agitation{
     font-family: Roboto;
@@ -329,3 +351,5 @@ a{
     text-transform: uppercase;
     padding-left: 45px;
 }
+
+/* Animations */
