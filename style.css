@@ -127,12 +127,16 @@ a{
     color: #2196F3;
 }
 
+.svg-email-and-phone{
+    padding-right: 10px;
+}
+
 /*MAIN 1st section*/
 
 .hero {
     display: flex;
     text-align: center;
-    background-image: url('photo/8.jpg');
+    background-image: url('photo/herobackground.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -264,6 +268,7 @@ a{
 
 .our-team-li{
     background-color: #FFFFFF;
+    text-align: center;
 }
 
 .our-team-li:not(:first-child){
@@ -328,18 +333,6 @@ a{
     margin-top: -100px;
     margin-left: 236px;
 }
-
-.icons {
-    background-color: transparent;
-    border-radius: 50%;
-    transition: background-color 0.4s ease;
-}
-
-.icons:hover {
-    background-color: #2196F3;
-    border-radius: 50%;
-}
-
 
 .social-agitation{
     font-family: Roboto;
