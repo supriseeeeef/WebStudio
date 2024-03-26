@@ -38,8 +38,12 @@ a{
 
 .border-header{
     border-bottom: 1px solid #ECECEC;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 99;
 }
-
 .header{
     display: flex;
     height: 80px;
