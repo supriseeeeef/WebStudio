@@ -18,8 +18,6 @@ a{
     width: 1170px;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
 }
 
 .section{
@@ -44,6 +42,7 @@ a{
     background-color: white;
     z-index: 99;
 }
+
 .header{
     display: flex;
     height: 80px;
@@ -224,4 +223,20 @@ a{
 
 .geolocation{
     color: #FFFFFF;
+}
+
+.footer-social{
+    margin-top: -100px;
+    margin-left: 236px;
+}
+
+.social-agitation{
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    padding-left: 45px;
 }
