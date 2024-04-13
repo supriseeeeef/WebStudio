@@ -11,24 +11,38 @@
 		<link rel="stylesheet" href="style.css">
 	</head>
 	<body>
-        <header class="border-header">
-            <div class="container header">
-                    <a href="index.html"><span class="span-logo1">Web</span><span class="span-logo2">Studio</span></a>
-                    <div class="main-nav">
-                        <nav>
-                            <ul class="site-nav list">
-                                <li class="site-nav-item"><a href="index.html" class="nav-links active">Студія</a></li>
-                                <li class="site-nav-item"><a href="portfolio.html" class="nav-links">Портфоліо</a></li>
-                                <li class="site-nav-item"><a href="#" class="nav-links">Контакти</a></li>
-                            </ul>
-                        </nav>
-                        <ul class="nav-contacts list">
-                            <li class="nav-contacts-item"><a href="mailto:info@devstudio.com" class="phone-and-email"><img src="photo/email.svg" alt="email"  class="svg-email-and-phone">info@devstudio.com</a></li>
-                            <li class="nav-contacts-item"><a href="tel:+380961111111" class="phone-and-email"><img src="photo/smartphone.svg" alt="smartphone" class="svg-email-and-phone">+38 096 111 11 11</a></li>
-                        </ul>
-                    </div>
-            </div>
-        </header>
+		<header class="border-header">
+			<div class="container header">
+				<a href="index.html">
+					<span class="span-logo1">Web</span><span class="span-logo2">Studio</span>
+				</a>
+				<div class="main-nav">
+					<nav>
+						<ul class="site-nav list">
+							<li class="site-nav-item">
+								<a href="index.html" class="nav-links active">Студія</a>
+							</li>
+							<li class="site-nav-item">
+								<a href="portfolio.html" class="nav-links">Портфоліо</a>
+							</li>
+							<li class="site-nav-item">
+								<a href="#" class="nav-links">Контакти</a>
+							</li>
+						</ul>
+					</nav>
+					<ul class="nav-contacts list">
+						<li class="nav-contacts-item">
+							<a href="mailto:info@devstudio.com" class="phone-and-email">
+								<img src="photo/email.svg" alt="email" class="svg-email-and-phone">info@devstudio.com </a>
+						</li>
+						<li class="nav-contacts-item">
+							<a href="tel:+380961111111" class="phone-and-email">
+								<img src="photo/smartphone.svg" alt="smartphone" class="svg-email-and-phone">+38 096 111 11 11 </a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</header>
 		<main>
 			<section class="hero">
 				<div class="container container-with-button">
@@ -38,30 +52,31 @@
 						<div class="modal">
 							<img src="photo/closemodal.svg" alt="close modal" class="close-modal-img" data-modal-close>
 							<h3 class="modal-title">Залиште свої дані, ми вам передзвонимо</h3>
-                            <form class="modal-form">
-                                <div class="contact-form-item">
-                                    <h4 class="form-input-info">Ім'я</h4>
+							<form class="modal-form">
+								<div class="contact-form-item">
+									<h4 class="form-input-info">Ім'я</h4>
 									<img src="" alt="">
-                                    <input type="text" id="name" name="name" class="contact-form-input" required>
-                                </div>
-                                <div class="contact-form-item">
-                                    <h4 class="form-input-info">Телефон</h4>
-                                    <input type="tel" id="phone" name="phone" class="contact-form-input" required>
-                                </div>
-                                <div class="contact-form-item">
-                                    <h4 class="form-input-info">Пошта</h4>
-                                    <input type="email" id="email" name="email" class="contact-form-input" required>
-                                </div>
-                                <div class="contact-form-item">
-                                    <h4 class="form-input-info">Коментар</h4>
-                                    <textarea id="comment" name="comment" placeholder="Введіть текст" ></textarea>
-                                </div>
-                                <label for="agree" class="modal-label">
-                                    <input type="checkbox" name="agree" value="agree" id="agree" class="agree-checkbox">
-                                    <span class="modal-accept-rules">Погоджуюся з розсилкою та приймаю <a href="#" class="modal-accept-rules-link">Умови договору</a></span>
-                                </label>
-                                <button type="submit" class="order-button contact-form-button" data-modal-close>Відправити</button>
-                            </form>
+									<input type="text" id="name" name="name" class="contact-form-input" required>
+								</div>
+								<div class="contact-form-item">
+									<h4 class="form-input-info">Телефон</h4>
+									<input type="tel" id="phone" name="phone" class="contact-form-input" required>
+								</div>
+								<div class="contact-form-item">
+									<h4 class="form-input-info">Пошта</h4>
+									<input type="email" id="email" name="email" class="contact-form-input" required>
+								</div>
+								<div class="contact-form-item">
+									<h4 class="form-input-info">Коментар</h4>
+									<textarea id="comment" name="comment" placeholder="Введіть текст"></textarea>
+								</div>
+								<label for="agree" class="modal-label">
+									<input type="checkbox" name="agree" value="agree" id="agree" class="agree-checkbox">
+									<span class="modal-accept-rules">Погоджуюся з розсилкою та приймаю <a href="#" class="modal-accept-rules-link">Умови договору</a>
+									</span>
+								</label>
+								<button type="submit" class="order-button contact-form-button" data-modal-close>Відправити</button>
+							</form>
 						</div>
 					</div>
 				</div>
@@ -119,16 +134,16 @@
 							<img src="photo/4.jpg" alt="Ігор Дем'яненко" class="photo-people">
 							<p class="text-team">Ігор Дем'яненко</p>
 							<p class="text-answer">Product Designer</p>
-							<a href="#">
+							<a href="#" target="_blank">
 								<img src="photo/instagram2.svg" alt="instagram" class="social-icon">
 							</a>
-							<a href="#">
+							<a href="#" target="_blank">
 								<img src="photo/twitter.svg" alt="twiter" class="social-icon">
 							</a>
-							<a href="#">
+							<a href="#" target="_blank">
 								<img src="photo/facebook2.svg" alt="facebook" class="social-icon">
 							</a>
-							<a href="#">
+							<a href="#" target="_blank">
 								<img src="photo/in2.svg" alt="in" class="social-icon">
 							</a>
 						</li>
@@ -136,16 +151,16 @@
 							<img src="photo/5.jpg" alt="Ольга Рєпіна" class="photo-people">
 							<p class="text-team">Ольга Рєпіна</p>
 							<p class="text-answer">Frontend Developer</p>
-							<a href="#">
+							<a href="#" target="_blank">
 								<img src="photo/instagram2.svg" alt="instagram" class="social-icon">
 							</a>
-							<a href="#">
+							<a href="#" target="_blank">
 								<img src="photo/twitter.svg" alt="twiter" class="social-icon">
 							</a>
-							<a href="#">
+							<a href="#" target="_blank">
 								<img src="photo/facebook2.svg" alt="facebook" class="social-icon">
 							</a>
-							<a href="#">
+							<a href="#" target="_blank">
 								<img src="photo/in2.svg" alt="in" class="social-icon">
 							</a>
 						</li>
@@ -153,16 +168,16 @@
 							<img src="photo/6.jpg" alt="Микола Тарасов" class="photo-people">
 							<p class="text-team">Микола Тарасов</p>
 							<p class="text-answer">Marketing</p>
-							<a href="#">
+							<a href="#" target="_blank">
 								<img src="photo/instagram2.svg" alt="instagram" class="social-icon">
 							</a>
-							<a href="#">
+							<a href="#" target="_blank">
 								<img src="photo/twitter.svg" alt="twiter" class="social-icon">
 							</a>
-							<a href="#">
+							<a href="#" target="_blank">
 								<img src="photo/facebook2.svg" alt="facebook" class="social-icon">
 							</a>
-							<a href="#">
+							<a href="#" target="_blank">
 								<img src="photo/in2.svg" alt="in" class="social-icon">
 							</a>
 						</li>
@@ -170,16 +185,16 @@
 							<img src="photo/7.jpg" alt="Михайло Єрмаков" class="photo-people">
 							<p class="text-team">Михайло Єрмаков</p>
 							<p class="text-answer">UI Designer</p>
-							<a href="#">
+							<a href="#" target="_blank">
 								<img src="photo/instagram2.svg" alt="instagram" class="social-icon">
 							</a>
-							<a href="#">
+							<a href="#" target="_blank">
 								<img src="photo/twitter.svg" alt="twiter" class="social-icon">
 							</a>
-							<a href="#">
+							<a href="#" target="_blank">
 								<img src="photo/facebook2.svg" alt="facebook" class="social-icon">
 							</a>
-							<a href="#">
+							<a href="#" target="_blank">
 								<img src="photo/in2.svg" alt="in" class="social-icon">
 							</a>
 						</li>
@@ -191,22 +206,34 @@
 					<h3 class="section-title">Постійні клієнти</h3>
 					<ul class="our-clients-list">
 						<li class="our-client-list-item">
-							<a href="#" target="_blank"><img src="photo/Client1.svg" alt="кліент"></a>
+							<a href="#" target="_blank">
+								<img src="photo/Client1.svg" alt="кліент">
+							</a>
 						</li>
 						<li class="our-client-list-item">
-							<a href="#" target="_blank"><img src="photo/Client2.svg" alt="кліент"></a>
+							<a href="#" target="_blank">
+								<img src="photo/Client2.svg" alt="кліент">
+							</a>
 						</li>
 						<li class="our-client-list-item">
-							<a href="#" target="_blank"><img src="photo/Client3.svg" alt="кліент"></a>
+							<a href="#" target="_blank">
+								<img src="photo/Client3.svg" alt="кліент">
+							</a>
 						</li>
 						<li class="our-client-list-item">
-							<a href="#" target="_blank"><img src="photo/client4.svg" alt="кліент"></a>
+							<a href="#" target="_blank">
+								<img src="photo/client4.svg" alt="кліент">
+							</a>
 						</li>
 						<li class="our-client-list-item">
-							<a href="#" target="_blank"><img src="photo/Client5.svg" alt="кліент"></a>
+							<a href="#" target="_blank">
+								<img src="photo/Client5.svg" alt="кліент">
+							</a>
 						</li>
 						<li class="our-client-list-item">
-							<a href="#" target="_blank"><img src="photo/Client5.svg" alt="кліент"></a>
+							<a href="#" target="_blank">
+								<img src="photo/Client5.svg" alt="кліент">
+							</a>
 						</li>
 					</ul>
 				</div>
@@ -214,46 +241,56 @@
 		</main>
 		<footer class="footer-section">
 			<div class="container">
-					<ul class="footer-list">
-						<li class="footer-list-item">
-							<a href="index.html">
-								<span class="span-logo1">Web</span><span class="span-logo2 span-logo-footer">Studio</span>
-							</a>
-							<ul class="footer-contacts list">
-								<li class="footer-contacts-item">
-									<a href="https://maps.app.goo.gl/JQiqGjMTHEHK7diV7" target="_blank" class="geolocation phone-and-email">м. Київ, пр-т Лесі Українки, 26</a>
-								</li>
-								<li class="footer-contacts-item">
-									<a href="mailto:info@devstudio.com" class="phone-and-email">info@devstudio.com</a>
-								</li>
-								<li class="footer-contacts-item">
-									<a href="tel:+380961111111" class="phone-and-email">+38 096 111 11 11</a>
-								</li>
-							</ul>
-						</li>
-						<li class="footer-list-item">
-							<h2 class="social-agitation">Приєднуйтесь</h2>
-								<a href="#">
+				<ul class="footer-list">
+					<li class="footer-list-item">
+						<a href="index.html">
+							<span class="span-logo1">Web</span><span class="span-logo2 span-logo-footer">Studio</span>
+						</a>
+						<ul class="footer-contacts list">
+							<li class="footer-contacts-item">
+								<a href="https://maps.app.goo.gl/JQiqGjMTHEHK7diV7" target="_blank" class="geolocation phone-and-email">м. Київ, пр-т Лесі Українки, 26</a>
+							</li>
+							<li class="footer-contacts-item">
+								<a href="mailto:info@devstudio.com" class="phone-and-email">info@devstudio.com</a>
+							</li>
+							<li class="footer-contacts-item">
+								<a href="tel:+380961111111" class="phone-and-email">+38 096 111 11 11</a>
+							</li>
+						</ul>
+					</li>
+					<li class="footer-list-item main-footer-item">
+						<h2 class="social-agitation">Приєднуйтесь</h2>
+						<ul class="footer-join-list">
+							<li>
+								<a href="#" target="_blank">
 									<img src="photo/instagram.svg" alt="instagram" class="icons">
 								</a>
-								<a href="#">
+							</li>
+							<li>
+								<a href="#" target="_blank">
 									<img src="photo/twitter2.svg" alt="twiter" class="icons">
 								</a>
-								<a href="#">
+							</li>
+							<li>
+								<a href="#" target="_blank">
 									<img src="photo/facebook.svg" alt="facebook" class="icons">
 								</a>
-								<a href="#">
+							</li>
+							<li>
+								<a href="#" target="_blank">
 									<img src="photo/in.svg" alt="in" class="icons">
 								</a>
-						</li>
-						<li>
-							<form class="footer-form">
-								<h2 class="social-agitation2">Підпишіться на розсилку</h2>
-								<input placeholder="E-mail" type="mail" class="footer-input">
-								<button class="footer-button" type="submit">Підписатися <img src="photo/tg.svg" alt="tg" class="tg-icon"></button>
-							</form>
-						</li>
-					</ul>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<h2 class="social-agitation2">Підпишіться на розсилку</h2>
+						<form class="footer-form">
+							<input placeholder="E-mail" type="mail" class="footer-input">
+							<button class="footer-button" type="submit">Підписатися <img src="photo/tg.svg" alt="tg" class="tg-icon"></button>
+						</form>
+					</li>
+				</ul>
 			</div>
 		</footer>
 		<script src="modal.js"></script>
