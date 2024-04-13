@@ -17,8 +17,8 @@
                     <div class="main-nav">
                         <nav>
                             <ul class="site-nav list">
-                                <li class="site-nav-item"><a href="index.html" class="nav-links">Студія</a></li>
-                                <li class="site-nav-item"><a href="portfolio.html" class="nav-links active">Портфоліо</a></li>
+                                <li class="site-nav-item"><a href="index.html" class="nav-links active">Студія</a></li>
+                                <li class="site-nav-item"><a href="portfolio.html" class="nav-links">Портфоліо</a></li>
                                 <li class="site-nav-item"><a href="#" class="nav-links">Контакти</a></li>
                             </ul>
                         </nav>
@@ -36,11 +36,12 @@
 					<button type="button" class="order-button" data-modal-open>Замовити послугу</button>
 					<div class="backdrop is-hidden" data-modal>
 						<div class="modal">
-							<img src="photo/closemodal.svg" alt="close modal" class="close-modal-img" data-modal-close clz>
-							<p class="modal-title">Залиште свої дані, ми вам передзвонимо</p>
+							<img src="photo/closemodal.svg" alt="close modal" class="close-modal-img" data-modal-close>
+							<h3 class="modal-title">Залиште свої дані, ми вам передзвонимо</h3>
                             <form class="modal-form">
                                 <div class="contact-form-item">
                                     <h4 class="form-input-info">Ім'я</h4>
+									<img src="" alt="">
                                     <input type="text" id="name" name="name" class="contact-form-input" required>
                                 </div>
                                 <div class="contact-form-item">
@@ -59,9 +60,8 @@
                                     <input type="checkbox" name="agree" value="agree" id="agree" class="agree-checkbox">
                                     <span class="modal-accept-rules">Погоджуюся з розсилкою та приймаю <a href="#" class="modal-accept-rules-link">Умови договору</a></span>
                                 </label>
-                                <button type="submit" class="order-button contact-form-button">Відправити</button>
+                                <button type="submit" class="order-button contact-form-button" data-modal-close>Відправити</button>
                             </form>
-                            
 						</div>
 					</div>
 				</div>
@@ -189,24 +189,24 @@
 			<section class="section">
 				<div class="container">
 					<h3 class="section-title">Постійні клієнти</h3>
-					<ul class="our-team-ul">
-						<li>
-							<img src="photo/Client1.svg" alt="кліент">
+					<ul class="our-clients-list">
+						<li class="our-client-list-item">
+							<a href="#" target="_blank"><img src="photo/Client1.svg" alt="кліент"></a>
 						</li>
-						<li>
-							<img src="photo/Client2.svg" alt="кліент">
+						<li class="our-client-list-item">
+							<a href="#" target="_blank"><img src="photo/Client2.svg" alt="кліент"></a>
 						</li>
-						<li>
-							<img src="photo/Client3.svg" alt="кліент">
+						<li class="our-client-list-item">
+							<a href="#" target="_blank"><img src="photo/Client3.svg" alt="кліент"></a>
 						</li>
-						<li>
-							<img src="photo/client4.svg" alt="кліент">
+						<li class="our-client-list-item">
+							<a href="#" target="_blank"><img src="photo/client4.svg" alt="кліент"></a>
 						</li>
-						<li>
-							<img src="photo/Client5.svg" alt="кліент">
+						<li class="our-client-list-item">
+							<a href="#" target="_blank"><img src="photo/Client5.svg" alt="кліент"></a>
 						</li>
-						<li>
-							<img src="photo/Client6.svg" alt="кліент">
+						<li class="our-client-list-item">
+							<a href="#" target="_blank"><img src="photo/Client5.svg" alt="кліент"></a>
 						</li>
 					</ul>
 				</div>
@@ -214,40 +214,46 @@
 		</main>
 		<footer class="footer-section">
 			<div class="container">
-				<a href="index.html">
-					<span class="span-logo1">Web</span>
-					<span class="span-logo2 span-logo-footer">Studio</span>
-				</a>
-				<div class="address">
-					<ul class="footer-contacts list">
-						<li>
-							<a href="https://maps.app.goo.gl/JQiqGjMTHEHK7diV7" target="_blank" class="geolocation phone-and-email">м. Київ, пр-т Лесі Українки, 26</a>
-						</li>
-						<li>
-							<a href="mailto:info@devstudio.com" class="phone-and-email">info@devstudio.com</a>
-						</li>
-						<li>
-							<a href="tel:+380961111111" class="phone-and-email">+38 096 111 11 11</a>
-						</li>
-					</ul>
-				</div>
-				<div class="footer-social">
-					<h2 class="social-agitation">Приєднуйтесь</h2>
 					<ul class="footer-list">
-						<a href="#">
-							<img src="photo/instagram.svg" alt="instagram" class="icons">
-						</a>
-						<a href="#">
-							<img src="photo/twitter2.svg" alt="twiter" class="icons">
-						</a>
-						<a href="#">
-							<img src="photo/facebook.svg" alt="facebook" class="icons">
-						</a>
-						<a href="#">
-							<img src="photo/in.svg" alt="in" class="icons">
-						</a>
+						<li class="footer-list-item">
+							<a href="index.html">
+								<span class="span-logo1">Web</span><span class="span-logo2 span-logo-footer">Studio</span>
+							</a>
+							<ul class="footer-contacts list">
+								<li class="footer-contacts-item">
+									<a href="https://maps.app.goo.gl/JQiqGjMTHEHK7diV7" target="_blank" class="geolocation phone-and-email">м. Київ, пр-т Лесі Українки, 26</a>
+								</li>
+								<li class="footer-contacts-item">
+									<a href="mailto:info@devstudio.com" class="phone-and-email">info@devstudio.com</a>
+								</li>
+								<li class="footer-contacts-item">
+									<a href="tel:+380961111111" class="phone-and-email">+38 096 111 11 11</a>
+								</li>
+							</ul>
+						</li>
+						<li class="footer-list-item">
+							<h2 class="social-agitation">Приєднуйтесь</h2>
+								<a href="#">
+									<img src="photo/instagram.svg" alt="instagram" class="icons">
+								</a>
+								<a href="#">
+									<img src="photo/twitter2.svg" alt="twiter" class="icons">
+								</a>
+								<a href="#">
+									<img src="photo/facebook.svg" alt="facebook" class="icons">
+								</a>
+								<a href="#">
+									<img src="photo/in.svg" alt="in" class="icons">
+								</a>
+						</li>
+						<li>
+							<form class="footer-form">
+								<h2 class="social-agitation2">Підпишіться на розсилку</h2>
+								<input placeholder="E-mail" type="mail" class="footer-input">
+								<button class="footer-button" type="submit">Підписатися <img src="photo/tg.svg" alt="tg" class="tg-icon"></button>
+							</form>
+						</li>
 					</ul>
-				</div>
 			</div>
 		</footer>
 		<script src="modal.js"></script>

@@ -394,6 +394,8 @@ a{
 .our-team-li{
     background-color: #FFFFFF;
     text-align: center;
+    box-shadow: 0px 1px 3px rgba(0,0,0,0.12), 0px 1px 1px rgba(0,0,0,0.14), 0px 2px 1px rgba(0,0,0,0.2);
+
 }
 
 .our-team-li:not(:first-child){
@@ -429,6 +431,15 @@ a{
     margin-bottom: 30px;
 }
 
+/* 5 Section */
+
+.our-clients-list{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+  
 /*Footer*/
 
 .footer-section{
@@ -437,26 +448,32 @@ a{
     padding: 60px 0;
 }
 
-.span-logo-footer{
-    color: #FFFFFF;
+.footer-list{
+    display: flex;
+    gap: 70px;
+    padding: 0;
 }
 
-.address{
-    margin-top: 20px;
+.footer-list-item{
+
+}
+
+.span-logo-footer{
+    color: #FFFFFF;
 }
 
 .footer-contacts{
     width: 231px;
     margin: 0;
+    padding-top: 10px;
+}
+
+.footer-contacts-item{
+    margin-top: 10px;
 }
 
 .geolocation{
     color: #FFFFFF;
-}
-
-.footer-social{
-    margin-top: -100px;
-    margin-left: 236px;
 }
 
 .social-agitation{
@@ -467,7 +484,57 @@ a{
     letter-spacing: 0.03em;
     color: #FFFFFF;
     text-transform: uppercase;
-    padding-left: 45px;
+}
+
+.footer-form{
+
+}
+
+.social-agitation2{
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.footer-input{
+    width: 358px;
+    height: 50px;
+    border-radius: 4px;
+    border: 1px solid #FFFFFF4D;
+    background-color: inherit;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #FFFFFF99;
+    padding-left: 16px;
+}
+
+.footer-button{
+    margin-left: 12px;
+    width: 200px;
+    height: 50px;
+    border-radius: 4px;
+    border: none;
+    background: #2196F3;
+
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+    text-align: center;
+}
+
+.tg-icon{
+
 }
 
 /* Animations */
