@@ -111,6 +111,17 @@ a {
     color: #2196F3;
 }
 
+.active::after {
+    position: absolute;
+    content: '';
+    display: block;
+    width: 48px;
+    height: 4px;
+    border-radius: 2px;   
+    background-color: #2196F3;
+    top: 77px;
+}
+
 .nav-contacts {
     display: flex;
 }
@@ -133,9 +144,6 @@ a {
     padding-right: 10px;
 }
 
-.page-header__mail-icon{
-    fill: #2196F3;
-}
 /* Modal */
 
 .backdrop {
@@ -250,7 +258,7 @@ a {
     color: #2196F3;
 }
 
-.test{
+.modal-accept-rules-div{
     padding: 20px 0 30px 0;
 }
 .contact-form-button {
