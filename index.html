@@ -54,27 +54,30 @@
 							<h3 class="modal-title">Залиште свої дані, ми вам передзвонимо</h3>
 							<form class="modal-form">
 								<div class="contact-form-item">
-									<h4 class="form-input-info">Ім'я</h4>
-									<img src="" alt="">
+									<p class="form-input-info">Ім'я</p>
+									<img src="photo/user.svg" alt="name" class="modal-img">
 									<input type="text" id="name" name="name" class="contact-form-input" required>
 								</div>
 								<div class="contact-form-item">
-									<h4 class="form-input-info">Телефон</h4>
+									<p class="form-input-info">Телефон</p>
+									<img src="photo/phone.svg" alt="phone" class="modal-img">
 									<input type="tel" id="phone" name="phone" class="contact-form-input" required>
 								</div>
 								<div class="contact-form-item">
-									<h4 class="form-input-info">Пошта</h4>
+									<p class="form-input-info">Пошта</p>
+									<img src="photo/contact-email.svg" alt="email" class="modal-img">
 									<input type="email" id="email" name="email" class="contact-form-input" required>
 								</div>
 								<div class="contact-form-item">
-									<h4 class="form-input-info">Коментар</h4>
-									<textarea id="comment" name="comment" placeholder="Введіть текст"></textarea>
+									<p class="form-input-info">Коментар</p>
+									<textarea class="comment" name="comment" placeholder="Введіть текст"></textarea>
 								</div>
-								<label for="agree" class="modal-label">
-									<input type="checkbox" name="agree" value="agree" id="agree" class="agree-checkbox">
-									<span class="modal-accept-rules">Погоджуюся з розсилкою та приймаю <a href="#" class="modal-accept-rules-link">Умови договору</a>
-									</span>
-								</label>
+								<div class="test">
+									<label for="agree" class="modal-label">
+										<input type="checkbox" name="agree" value="agree" id="agree" class="agree-checkbox">
+										<span class="modal-accept-rules">Погоджуюся з розсилкою та приймаю <a href="#" class="modal-accept-rules-link">Умови договору</a></span>
+									</label>
+								</div>
 								<button type="submit" class="order-button contact-form-button" data-modal-close>Відправити</button>
 							</form>
 						</div>
@@ -286,7 +289,7 @@
 					<li>
 						<h2 class="social-agitation2">Підпишіться на розсилку</h2>
 						<form class="footer-form">
-							<input placeholder="E-mail" type="mail" class="footer-input">
+							<input placeholder="E-mail" type="email" class="footer-input">
 							<button class="footer-button" type="submit">Підписатися <img src="photo/tg.svg" alt="tg" class="tg-icon"></button>
 						</form>
 					</li>

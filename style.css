@@ -100,9 +100,8 @@ a {
     font-weight: 500;
     line-height: 16px;
     letter-spacing: 0.02em;
-    transition: color 0.4s ease;
+    transition: color 0.9s ease;
 }
-
 
 .nav-links:hover {
     color: #2196F3;
@@ -123,7 +122,7 @@ a {
     font-weight: 500;
     line-height: 16px;
     letter-spacing: 0.02em;
-    transition: color 0.4s ease;
+    transition: color 0.9s ease;
 }
 
 .phone-and-email:hover {
@@ -134,18 +133,9 @@ a {
     padding-right: 10px;
 }
 
-/* Modal */
-
-/*Important*/
-li {
-    list-style-type: none;
+.page-header__mail-icon{
+    fill: #2196F3;
 }
-
-a {
-    list-style-type: none;
-    text-decoration: none;
-}
-
 /* Modal */
 
 .backdrop {
@@ -169,10 +159,10 @@ a {
 
 .modal {
     position: absolute;
+    z-index: 9999;
     top: 50%;
     left: 50%;
-    min-width: 400px;
-    min-height: 300px;
+    width: 528px;
     padding: 15px;
     background: #FFFFFF;
     transform: translate(-50%, -50%);
@@ -189,8 +179,17 @@ a {
     font-weight: 700;
     line-height: 23.44px;
     letter-spacing: 0.03em;
-    text-align: center;
     color: #212121;
+}
+
+.modal-form{
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 40px;
+}
+
+.contact-form-item{
+    position: relative;
 }
 
 .form-input-info {
@@ -203,9 +202,32 @@ a {
     color: #757575;
 }
 
-.contact-form-input {}
+.modal-img{
+    position: absolute;
+    top: 40px;
+    left: 10px;
+}
 
-.modal-label {}
+.contact-form-input {
+    width: 448px;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid #21212133;
+    padding-left: 32px;
+}
+
+.comment{
+    resize: none;
+    width: 448px;
+    height: 120px;
+    border-radius: 4px;
+    border: 1px solid #21212133;
+    padding: 5px;
+}
+
+.modal-label {
+
+}
 
 .modal-accept-rules {
     font-family: Roboto;
@@ -228,7 +250,11 @@ a {
     color: #2196F3;
 }
 
-.contact-form-button {}
+.test{
+    padding: 20px 0 30px 0;
+}
+.contact-form-button {
+}
 
 /*MAIN 1st section*/
 
