@@ -8,11 +8,12 @@
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Oleo+Script&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="style.css">
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	</head>
 	<body>
 		<header class="border-header">
 			<div class="container header">
-				<a href="index.html">
+				<a href="index.html" data-aos="zoom-in" data-aos-duration="1000">
 					<span class="span-logo1">Web</span><span class="span-logo2">Studio</span>
 				</a>
 				<div class="main-nav">
@@ -45,10 +46,10 @@
 		<main>
 			<section class="hero">
 				<div class="container container-with-button">
-					<h1 class="main-text-for-site">Ефективні рішення для <br> вашого бізнесу </h1>
-					<button type="button" class="order-button" data-modal-open>Замовити послугу</button>
+					<h1 class="main-text-for-site" data-aos="fade-up-right" data-aos-duration="1400">Ефективні рішення для <br> вашого бізнесу </h1>
+					<button type="button" class="order-button" data-modal-open data-aos="fade-up-right" data-aos-duration="2000">Замовити послугу</button>
 					<div class="backdrop is-hidden" data-modal>
-						<div class="modal">
+						<div class="modal" >
 							<img src="photo/closemodal.svg" alt="close modal" class="close-modal-img" data-modal-close>
 							<h3 class="modal-title">Залиште свої дані, ми вам передзвонимо</h3>
 							<form class="modal-form">
@@ -86,42 +87,42 @@
 			<section class="section">
 				<div class="container">
 					<ul class="main-text-ul">
-						<li>
+						<li class="main-text-item">
 							<img src="photo/Group1.svg" alt="#">
-							<h3 class="main-text">УВАГА ДО ДЕТАЛЕЙ</h3>
-							<p class="main-text-answer">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції. </p>
+							<h3 class="main-text" data-aos="fade-up-right" data-aos-duration="1300">УВАГА ДО ДЕТАЛЕЙ</h3>
+							<p class="main-text-answer" data-aos="fade-up-right" data-aos-duration="1600">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції. </p>
 						</li>
 						<li class="main-text-item">
 							<img src="photo/Group2.svg" alt="#">
-							<h3 class="main-text">ПУНКТУАЛЬНІСТЬ</h3>
-							<p class="main-text-answer">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе. </p>
+							<h3 class="main-text" data-aos="fade-up-right" data-aos-duration="1300">ПУНКТУАЛЬНІСТЬ</h3>
+							<p class="main-text-answer" data-aos="fade-up-right" data-aos-duration="1600">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе. </p>
 						</li>
 						<li class="main-text-item">
 							<img src="photo/Group3.svg" alt="#">
-							<h3 class="main-text">ПЛАНУВАННЯ</h3>
-							<p class="main-text-answer">Так само консультація з широким активом значною мірою зумовлює.</p>
+							<h3 class="main-text" data-aos="fade-up-right" data-aos-duration="1300">ПЛАНУВАННЯ</h3>
+							<p class="main-text-answer" data-aos="fade-up-right" data-aos-duration="1600">Так само консультація з широким активом значною мірою зумовлює.</p>
 						</li>
 						<li class="main-text-item">
 							<img src="photo/Group4.svg" alt="#">
-							<h3 class="main-text">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-							<p class="main-text-answer">Значимість цих проблем настільки очевидна, що реалізація планових завдань. </p>
+							<h3 class="main-text" data-aos="fade-up-right" data-aos-duration="1300">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+							<p class="main-text-answer" data-aos="fade-up-right" data-aos-duration="1600">Значимість цих проблем настільки очевидна, що реалізація планових завдань. </p>
 						</li>
 					</ul>
 				</div>
 			</section>
 			<section class="section work-section">
 				<div class="container">
-					<h2 class="section-title">Чим ми займаємося</h2>
+					<h2 class="section-title" data-aos="fade-up" data-aos-duration="1400">Чим ми займаємося</h2>
 					<ul class="what-we-doing-list">
-						<li class="what-we-doing-list-item">
+						<li class="what-we-doing-list-item" data-aos="fade-up-right" data-aos-duration="1400">
 							<img src="photo/1.jpg" alt="Написання коду" class="what-we-doing-img">
 							<h3 class="what-we-doing-list-h3">Десктопні додатки</h3>
 						</li>
-						<li class="what-we-doing-list-item">
+						<li class="what-we-doing-list-item" data-aos="fade-up" data-aos-duration="1400">
 							<img src="photo/2.jpg" alt="Розробка сайту" class="what-we-doing-img">
 							<h3 class="what-we-doing-list-h3">Мобільні додатки</h3>
 						</li>
-						<li class="what-we-doing-list-item">
+						<li class="what-we-doing-list-item" data-aos="fade-up-left" data-aos-duration="1400">
 							<img src="photo/3.jpg" alt="Підбір кольорів" class="what-we-doing-img">
 							<h3 class="what-we-doing-list-h3">Дизайнерські рішення</h3>
 						</li>
@@ -130,109 +131,117 @@
 			</section>
 			<section class="section alt-bg">
 				<div class="container">
-					<h3 class="section-title">Наша команда</h3>
+					<h3 class="section-title" data-aos="fade-up" data-aos-duration="1400">Наша команда</h3>
 					<ul class="our-team-ul">
-						<li class="our-team-li">
+						<li class="our-team-li" data-aos="fade-up" data-aos-duration="1400">
 							<img src="photo/4.jpg" alt="Ігор Дем'яненко" class="photo-people">
-							<p class="text-team">Ігор Дем'яненко</p>
-							<p class="text-answer">Product Designer</p>
-							<a href="#" target="_blank">
-								<img src="photo/instagram2.svg" alt="instagram" class="social-icon">
-							</a>
-							<a href="#" target="_blank">
-								<img src="photo/twitter.svg" alt="twiter" class="social-icon">
-							</a>
-							<a href="#" target="_blank">
-								<img src="photo/facebook2.svg" alt="facebook" class="social-icon">
-							</a>
-							<a href="#" target="_blank">
-								<img src="photo/in2.svg" alt="in" class="social-icon">
-							</a>
+							<p class="text-team" data-aos="fade-right" data-aos-duration="1500">Ігор Дем'яненко</p>
+							<p class="text-answer" data-aos="fade-right" data-aos-duration="1600">Product Designer</p>
+							<div data-aos="fade-up" data-aos-duration="1600">
+								<a href="#" target="_blank">
+									<img src="photo/instagram2.svg" alt="instagram" class="social-icon">
+								</a>
+								<a href="#" target="_blank">
+									<img src="photo/twitter.svg" alt="twiter" class="social-icon">
+								</a>
+								<a href="#" target="_blank">
+									<img src="photo/facebook2.svg" alt="facebook" class="social-icon">
+								</a>
+								<a href="#" target="_blank">
+									<img src="photo/in2.svg" alt="in" class="social-icon">
+								</a>
+							</div>
 						</li>
-						<li class="our-team-li">
+						<li class="our-team-li" data-aos="fade-up" data-aos-duration="1600">
 							<img src="photo/5.jpg" alt="Ольга Рєпіна" class="photo-people">
-							<p class="text-team">Ольга Рєпіна</p>
-							<p class="text-answer">Frontend Developer</p>
-							<a href="#" target="_blank">
-								<img src="photo/instagram2.svg" alt="instagram" class="social-icon">
-							</a>
-							<a href="#" target="_blank">
-								<img src="photo/twitter.svg" alt="twiter" class="social-icon">
-							</a>
-							<a href="#" target="_blank">
-								<img src="photo/facebook2.svg" alt="facebook" class="social-icon">
-							</a>
-							<a href="#" target="_blank">
-								<img src="photo/in2.svg" alt="in" class="social-icon">
-							</a>
+							<p class="text-team" data-aos="fade-right" data-aos-duration="1700">Ольга Рєпіна</p>
+							<p class="text-answer" data-aos="fade-right" data-aos-duration="1800">Frontend Developer</p>
+							<div data-aos="fade-up" data-aos-duration="1800">
+								<a href="#" target="_blank">
+									<img src="photo/instagram2.svg" alt="instagram" class="social-icon">
+								</a>
+								<a href="#" target="_blank">
+									<img src="photo/twitter.svg" alt="twiter" class="social-icon">
+								</a>
+								<a href="#" target="_blank">
+									<img src="photo/facebook2.svg" alt="facebook" class="social-icon">
+								</a>
+								<a href="#" target="_blank">
+									<img src="photo/in2.svg" alt="in" class="social-icon">
+								</a>
+							</div>
 						</li>
-						<li class="our-team-li">
+						<li class="our-team-li" data-aos="fade-up" data-aos-duration="1800">
 							<img src="photo/6.jpg" alt="Микола Тарасов" class="photo-people">
-							<p class="text-team">Микола Тарасов</p>
-							<p class="text-answer">Marketing</p>
-							<a href="#" target="_blank">
-								<img src="photo/instagram2.svg" alt="instagram" class="social-icon">
-							</a>
-							<a href="#" target="_blank">
-								<img src="photo/twitter.svg" alt="twiter" class="social-icon">
-							</a>
-							<a href="#" target="_blank">
-								<img src="photo/facebook2.svg" alt="facebook" class="social-icon">
-							</a>
-							<a href="#" target="_blank">
-								<img src="photo/in2.svg" alt="in" class="social-icon">
-							</a>
+							<p class="text-team" data-aos="fade-left" data-aos-duration="1900">Микола Тарасов</p>
+							<p class="text-answer" data-aos="fade-left" data-aos-duration="2000">Marketing</p>
+							<div data-aos="fade-up" data-aos-duration="2000">
+								<a href="#" target="_blank">
+									<img src="photo/instagram2.svg" alt="instagram" class="social-icon">
+								</a>
+								<a href="#" target="_blank">
+									<img src="photo/twitter.svg" alt="twiter" class="social-icon">
+								</a>
+								<a href="#" target="_blank">
+									<img src="photo/facebook2.svg" alt="facebook" class="social-icon">
+								</a>
+								<a href="#" target="_blank">
+									<img src="photo/in2.svg" alt="in" class="social-icon">
+								</a>
+							</div>
 						</li>
-						<li class="our-team-li">
+						<li class="our-team-li" data-aos="fade-up" data-aos-duration="2000">
 							<img src="photo/7.jpg" alt="Михайло Єрмаков" class="photo-people">
-							<p class="text-team">Михайло Єрмаков</p>
-							<p class="text-answer">UI Designer</p>
-							<a href="#" target="_blank">
-								<img src="photo/instagram2.svg" alt="instagram" class="social-icon">
-							</a>
-							<a href="#" target="_blank">
-								<img src="photo/twitter.svg" alt="twiter" class="social-icon">
-							</a>
-							<a href="#" target="_blank">
-								<img src="photo/facebook2.svg" alt="facebook" class="social-icon">
-							</a>
-							<a href="#" target="_blank">
-								<img src="photo/in2.svg" alt="in" class="social-icon">
-							</a>
+							<p class="text-team" data-aos="fade-left" data-aos-duration="2100">Михайло Єрмаков</p>
+							<p class="text-answer" data-aos="fade-left" data-aos-duration="2200">UI Designer</p>
+							<div data-aos="fade-up" data-aos-duration="2200">
+								<a href="#" target="_blank">
+									<img src="photo/instagram2.svg" alt="instagram" class="social-icon">
+								</a>
+								<a href="#" target="_blank">
+									<img src="photo/twitter.svg" alt="twiter" class="social-icon">
+								</a>
+								<a href="#" target="_blank">
+									<img src="photo/facebook2.svg" alt="facebook" class="social-icon">
+								</a>
+								<a href="#" target="_blank">
+									<img src="photo/in2.svg" alt="in" class="social-icon">
+								</a>
+							</div>
 						</li>
 					</ul>
 				</div>
 			</section>
 			<section class="section">
 				<div class="container">
-					<h3 class="section-title">Постійні клієнти</h3>
+					<h3 class="section-title" data-aos="fade-up" data-aos-duration="1400">Постійні клієнти</h3>
 					<ul class="our-clients-list">
-						<li class="our-client-list-item">
+						<li class="our-client-list-item" data-aos="fade-up-right" data-aos-duration="1400">
 							<a href="#" target="_blank">
 								<img src="photo/Client1.svg" alt="кліент">
 							</a>
 						</li>
-						<li class="our-client-list-item">
+						<li class="our-client-list-item" data-aos="fade-up-right" data-aos-duration="1200">
 							<a href="#" target="_blank">
 								<img src="photo/Client2.svg" alt="кліент">
 							</a>
 						</li>
-						<li class="our-client-list-item">
+						<li class="our-client-list-item" data-aos="fade-up" data-aos-duration="1000">
 							<a href="#" target="_blank">
 								<img src="photo/Client3.svg" alt="кліент">
 							</a>
 						</li>
-						<li class="our-client-list-item">
+						<li class="our-client-list-item" data-aos="fade-up" data-aos-duration="1000">
 							<a href="#" target="_blank">
 								<img src="photo/client4.svg" alt="кліент">
 							</a>
 						</li>
-						<li class="our-client-list-item">
+						<li class="our-client-list-item" data-aos="fade-up-left" data-aos-duration="1200">
 							<a href="#" target="_blank">
 								<img src="photo/Client5.svg" alt="кліент">
 							</a>
 						</li>
-						<li class="our-client-list-item">
+						<li class="our-client-list-item" data-aos="fade-up-left" data-aos-duration="1400">
 							<a href="#" target="_blank">
 								<img src="photo/Client5.svg" alt="кліент">
 							</a>
@@ -261,24 +270,24 @@
 						</ul>
 					</li>
 					<li class="footer-list-item main-footer-item">
-						<h2 class="social-agitation">Приєднуйтесь</h2>
+						<h2 class="social-agitation" data-aos="fade-up" data-aos-duration="800">Приєднуйтесь</h2>
 						<ul class="footer-join-list">
-							<li>
+							<li data-aos="fade-left" data-aos-duration="800">
 								<a href="#" target="_blank">
 									<img src="photo/instagram.svg" alt="instagram" class="icons">
 								</a>
 							</li>
-							<li>
+							<li data-aos="fade-left" data-aos-duration="1000">
 								<a href="#" target="_blank">
 									<img src="photo/twitter2.svg" alt="twiter" class="icons">
 								</a>
 							</li>
-							<li>
+							<li data-aos="fade-left" data-aos-duration="1200">
 								<a href="#" target="_blank">
 									<img src="photo/facebook.svg" alt="facebook" class="icons">
 								</a>
 							</li>
-							<li>
+							<li data-aos="fade-left" data-aos-duration="1400">
 								<a href="#" target="_blank">
 									<img src="photo/in.svg" alt="in" class="icons">
 								</a>
@@ -286,15 +295,19 @@
 						</ul>
 					</li>
 					<li>
-						<h2 class="social-agitation2">Підпишіться на розсилку</h2>
+						<h2 class="social-agitation2" data-aos="fade-up" data-aos-duration="1000">Підпишіться на розсилку</h2>
 						<form class="footer-form">
-							<input placeholder="E-mail" type="email" class="footer-input">
-							<button class="footer-button" type="submit">Підписатися <img src="photo/tg.svg" alt="tg" class="tg-icon"></button>
+							<input placeholder="E-mail" type="email" class="footer-input" data-aos="fade-left" data-aos-duration="1000">
+							<button class="footer-button" type="submit" data-aos="fade-left" data-aos-duration="1200">Підписатися <img src="photo/tg.svg" alt="tg" class="tg-icon" data-aos="fade-left" data-aos-duration="1000"></button>
 						</form>
 					</li>
 				</ul>
 			</div>
 		</footer>
 		<script src="modal.js"></script>
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		<script>
+			AOS.init();
+		  </script>
 	</body>
 </html>

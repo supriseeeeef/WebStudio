@@ -84,6 +84,17 @@ a {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    animation: fadeIn 1s; 
+
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 .site-nav {

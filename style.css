@@ -68,6 +68,17 @@ a,li{list-style-type:none}body,legend{padding:0}input,textarea{outline:0!importa
     width: 100%;
     display: flex;
     justify-content: space-between;
+    animation: fadeIn 1s; 
+
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 .site-nav {
@@ -181,7 +192,6 @@ a,li{list-style-type:none}body,legend{padding:0}input,textarea{outline:0!importa
     background: #FFFFFF;
     transform: translate(-50%, -50%);
 }
-
 
 .close-modal-img {
     float: right;
