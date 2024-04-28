@@ -1,0 +1,18 @@
+/* Normalize */
+.container {
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section {
+  display: block;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}/*# sourceMappingURL=main.css.map */
