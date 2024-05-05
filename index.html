@@ -1,314 +1,341 @@
 <!DOCTYPE html>
 <html lang="uk">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>WebStudio</title>
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Oleo+Script&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-		<link rel="stylesheet" href="css/main.min.css">
-		<link rel="stylesheet" href="normalize.css">
-		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-	</head>
-	<body>
-		<header class="border-header">
-			<div class="container header">
-				<a href="index.html" data-aos="zoom-in" data-aos-duration="1000">
-					<span class="span-logo1">Web</span><span class="span-logo2">Studio</span>
-				</a>
-				<div class="main-nav">
-					<nav>
-						<ul class="site-nav list">
-							<li class="site-nav-item">
-								<a href="index.html" class="nav-links active">Студія</a>
-							</li>
-							<li class="site-nav-item">
-								<a href="portfolio.html" class="nav-links">Портфоліо</a>
-							</li>
-							<li class="site-nav-item">
-								<a href="#" class="nav-links">Контакти</a>
-							</li>
-						</ul>
-					</nav>
-					<ul class="nav-contacts list">
-						<li class="nav-contacts-item">
-							<a href="mailto:info@devstudio.com" class="phone-and-email">
-								<img src="photo/email.svg" alt="email" class="svg-email-and-phone">info@devstudio.com </a>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>WebStudio</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Oleo+Script&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="css/main.min.css">
+	<link rel="stylesheet" href="normalize.css">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+	<header class="border-header">
+		<div class="container header">
+			<a href="index.html" data-aos="zoom-in" data-aos-duration="1000">
+				<span class="span-logo1">Web</span><span class="span-logo2">Studio</span>
+			</a>
+			<div class="main-nav">
+				<nav>
+					<ul class="site-nav list">
+						<li class="site-nav__item">
+							<a href="index.html" class="site-nav__link active">Студія</a>
 						</li>
-						<li class="nav-contacts-item">
-							<a href="tel:+380961111111" class="phone-and-email">
-								<img src="photo/smartphone.svg" alt="smartphone" class="svg-email-and-phone">+38 096 111 11 11 </a>
+						<li class="site-nav__item">
+							<a href="portfolio.html" class="site-nav__link">Портфоліо</a>
+						</li>
+						<li class="site-nav__item">
+							<a href="#" class="site-nav__link">Контакти</a>
 						</li>
 					</ul>
-				</div>
-			</div>
-		</header>
-		<main>
-			<section class="hero">
-				<div class="container container-with-button">
-					<h1 class="main-text-for-site" data-aos="fade-up-right" data-aos-duration="1400">Ефективні рішення для <br> вашого бізнесу </h1>
-					<button type="button" data-modal-open class="order-button">Замовити послугу</button>
-					<div class="backdrop is-hidden" data-modal>
-						<div class="modal" >
-							<img src="photo/closemodal.svg" alt="close modal" class="close-modal-img" data-modal-close>
-							<h3 class="modal-title">Залиште свої дані, ми вам передзвонимо</h3>
-							<form class="modal-form">
-								<div class="contact-form-item">
-									<p class="form-input-info">Ім'я</p>
-									<img src="photo/user.svg" alt="name" class="modal-img">
-									<input type="text" id="name" name="name" class="contact-form-input" required>
-								</div>
-								<div class="contact-form-item">
-									<p class="form-input-info">Телефон</p>
-									<img src="photo/phone.svg" alt="phone" class="modal-img">
-									<input type="tel" id="phone" name="phone" class="contact-form-input" required>
-								</div>
-								<div class="contact-form-item">
-									<p class="form-input-info">Пошта</p>
-									<img src="photo/contact-email.svg" alt="email" class="modal-img">
-									<input type="email" id="email" name="email" class="contact-form-input" required>
-								</div>
-								<div class="contact-form-item">
-									<p class="form-input-info">Коментар</p>
-									<textarea class="comment" name="comment" placeholder="Введіть текст"></textarea>
-								</div>
-								<div class="modal-accept-rules-div">
-									<label for="agree" class="modal-label">
-										<input type="checkbox" name="agree" value="agree" id="agree" class="agree-checkbox">
-										<span class="modal-accept-rules">Погоджуюся з розсилкою та приймаю <a href="#" class="modal-accept-rules-link">Умови договору</a></span>
-									</label>
-								</div>
-								<button type="submit" class="order-button" data-modal-close>Відправити</button>
-							</form>
-						</div>
-					</div>
-				</div>
-			</section>
-			<section class="section">
-				<div class="container">
-					<ul class="main-text-ul">
-						<li class="main-text-item">
-							<img src="photo/Group1.svg" alt="#">
-							<h3 class="main-text" data-aos="fade-up-right" data-aos-duration="1300">УВАГА ДО ДЕТАЛЕЙ</h3>
-							<p class="main-text-answer" data-aos="fade-up-right" data-aos-duration="1600">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції. </p>
-						</li>
-						<li class="main-text-item">
-							<img src="photo/Group2.svg" alt="#">
-							<h3 class="main-text" data-aos="fade-up-right" data-aos-duration="1300">ПУНКТУАЛЬНІСТЬ</h3>
-							<p class="main-text-answer" data-aos="fade-up-right" data-aos-duration="1600">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе. </p>
-						</li>
-						<li class="main-text-item">
-							<img src="photo/Group3.svg" alt="#">
-							<h3 class="main-text" data-aos="fade-up-right" data-aos-duration="1300">ПЛАНУВАННЯ</h3>
-							<p class="main-text-answer" data-aos="fade-up-right" data-aos-duration="1600">Так само консультація з широким активом значною мірою зумовлює.</p>
-						</li>
-						<li class="main-text-item">
-							<img src="photo/Group4.svg" alt="#">
-							<h3 class="main-text" data-aos="fade-up-right" data-aos-duration="1300">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-							<p class="main-text-answer" data-aos="fade-up-right" data-aos-duration="1600">Значимість цих проблем настільки очевидна, що реалізація планових завдань. </p>
-						</li>
-					</ul>
-				</div>
-			</section>
-			<section class="section work-section">
-				<div class="container">
-					<h2 class="section-title" data-aos="fade-up" data-aos-duration="1400">Чим ми займаємося</h2>
-					<ul class="what-we-doing-list">
-						<li class="what-we-doing-list-item" data-aos="fade-up-right" data-aos-duration="1400">
-							<img src="photo/1.jpg" alt="Написання коду" class="what-we-doing-img">
-							<h3 class="what-we-doing-list-h3">Десктопні додатки</h3>
-						</li>
-						<li class="what-we-doing-list-item" data-aos="fade-up" data-aos-duration="1400">
-							<img src="photo/2.jpg" alt="Розробка сайту" class="what-we-doing-img">
-							<h3 class="what-we-doing-list-h3">Мобільні додатки</h3>
-						</li>
-						<li class="what-we-doing-list-item" data-aos="fade-up-left" data-aos-duration="1400">
-							<img src="photo/3.jpg" alt="Підбір кольорів" class="what-we-doing-img">
-							<h3 class="what-we-doing-list-h3">Дизайнерські рішення</h3>
-						</li>
-					</ul>
-				</div>
-			</section>
-			<section class="section alt-bg">
-				<div class="container">
-					<h3 class="section-title" data-aos="fade-up" data-aos-duration="1400">Наша команда</h3>
-					<ul class="our-team-ul">
-						<li class="our-team-li" data-aos="fade-up" data-aos-duration="1400">
-							<img src="photo/4.jpg" alt="Ігор Дем'яненко" class="photo-people">
-							<p class="text-team" data-aos="fade-right" data-aos-duration="1500">Ігор Дем'яненко</p>
-							<p class="text-answer" data-aos="fade-right" data-aos-duration="1600">Product Designer</p>
-							<div data-aos="fade-up" data-aos-duration="1600">
-								<a href="#" target="_blank">
-									<img src="photo/instagram2.svg" alt="instagram" class="social-icon">
-								</a>
-								<a href="#" target="_blank">
-									<img src="photo/twitter.svg" alt="twiter" class="social-icon">
-								</a>
-								<a href="#" target="_blank">
-									<img src="photo/facebook2.svg" alt="facebook" class="social-icon">
-								</a>
-								<a href="#" target="_blank">
-									<img src="photo/in2.svg" alt="in" class="social-icon">
-								</a>
-							</div>
-						</li>
-						<li class="our-team-li" data-aos="fade-up" data-aos-duration="1600">
-							<img src="photo/5.jpg" alt="Ольга Рєпіна" class="photo-people">
-							<p class="text-team" data-aos="fade-right" data-aos-duration="1700">Ольга Рєпіна</p>
-							<p class="text-answer" data-aos="fade-right" data-aos-duration="1800">Frontend Developer</p>
-							<div data-aos="fade-up" data-aos-duration="1800">
-								<a href="#" target="_blank">
-									<img src="photo/instagram2.svg" alt="instagram" class="social-icon">
-								</a>
-								<a href="#" target="_blank">
-									<img src="photo/twitter.svg" alt="twiter" class="social-icon">
-								</a>
-								<a href="#" target="_blank">
-									<img src="photo/facebook2.svg" alt="facebook" class="social-icon">
-								</a>
-								<a href="#" target="_blank">
-									<img src="photo/in2.svg" alt="in" class="social-icon">
-								</a>
-							</div>
-						</li>
-						<li class="our-team-li" data-aos="fade-up" data-aos-duration="1800">
-							<img src="photo/6.jpg" alt="Микола Тарасов" class="photo-people">
-							<p class="text-team" data-aos="fade-left" data-aos-duration="1900">Микола Тарасов</p>
-							<p class="text-answer" data-aos="fade-left" data-aos-duration="2000">Marketing</p>
-							<div data-aos="fade-up" data-aos-duration="2000">
-								<a href="#" target="_blank">
-									<img src="photo/instagram2.svg" alt="instagram" class="social-icon">
-								</a>
-								<a href="#" target="_blank">
-									<img src="photo/twitter.svg" alt="twiter" class="social-icon">
-								</a>
-								<a href="#" target="_blank">
-									<img src="photo/facebook2.svg" alt="facebook" class="social-icon">
-								</a>
-								<a href="#" target="_blank">
-									<img src="photo/in2.svg" alt="in" class="social-icon">
-								</a>
-							</div>
-						</li>
-						<li class="our-team-li" data-aos="fade-up" data-aos-duration="2000">
-							<img src="photo/7.jpg" alt="Михайло Єрмаков" class="photo-people">
-							<p class="text-team" data-aos="fade-left" data-aos-duration="2100">Михайло Єрмаков</p>
-							<p class="text-answer" data-aos="fade-left" data-aos-duration="2200">UI Designer</p>
-							<div data-aos="fade-up" data-aos-duration="2200">
-								<a href="#" target="_blank">
-									<img src="photo/instagram2.svg" alt="instagram" class="social-icon">
-								</a>
-								<a href="#" target="_blank">
-									<img src="photo/twitter.svg" alt="twiter" class="social-icon">
-								</a>
-								<a href="#" target="_blank">
-									<img src="photo/facebook2.svg" alt="facebook" class="social-icon">
-								</a>
-								<a href="#" target="_blank">
-									<img src="photo/in2.svg" alt="in" class="social-icon">
-								</a>
-							</div>
-						</li>
-					</ul>
-				</div>
-			</section>
-			<section class="section">
-				<div class="container">
-					<h3 class="section-title" data-aos="fade-up" data-aos-duration="1400">Постійні клієнти</h3>
-					<ul class="our-clients-list">
-						<li class="our-client-list-item" data-aos="fade-up-right" data-aos-duration="1400">
-							<a href="#" target="_blank">
-								<img src="photo/Client1.svg" alt="кліент">
-							</a>
-						</li>
-						<li class="our-client-list-item" data-aos="fade-up-right" data-aos-duration="1200">
-							<a href="#" target="_blank">
-								<img src="photo/Client2.svg" alt="кліент">
-							</a>
-						</li>
-						<li class="our-client-list-item" data-aos="fade-up" data-aos-duration="1000">
-							<a href="#" target="_blank">
-								<img src="photo/Client3.svg" alt="кліент">
-							</a>
-						</li>
-						<li class="our-client-list-item" data-aos="fade-up" data-aos-duration="1000">
-							<a href="#" target="_blank">
-								<img src="photo/client4.svg" alt="кліент">
-							</a>
-						</li>
-						<li class="our-client-list-item" data-aos="fade-up-left" data-aos-duration="1200">
-							<a href="#" target="_blank">
-								<img src="photo/Client5.svg" alt="кліент">
-							</a>
-						</li>
-						<li class="our-client-list-item" data-aos="fade-up-left" data-aos-duration="1400">
-							<a href="#" target="_blank">
-								<img src="photo/Client5.svg" alt="кліент">
-							</a>
-						</li>
-					</ul>
-				</div>
-			</section>
-		</main>
-		<footer class="footer-section">
-			<div class="container">
-				<ul class="footer-list">
-					<li class="footer-list-item">
-						<a href="index.html">
-							<span class="span-logo1">Web</span><span class="span-logo2 span-logo-footer">Studio</span>
-						</a>
-						<ul class="footer-contacts list">
-							<li class="footer-contacts-item">
-								<a href="https://maps.app.goo.gl/JQiqGjMTHEHK7diV7" target="_blank" class="geolocation phone-and-email">м. Київ, пр-т Лесі Українки, 26</a>
-							</li>
-							<li class="footer-contacts-item">
-								<a href="mailto:info@devstudio.com" class="phone-and-email">info@devstudio.com</a>
-							</li>
-							<li class="footer-contacts-item">
-								<a href="tel:+380961111111" class="phone-and-email">+38 096 111 11 11</a>
-							</li>
-						</ul>
+				</nav>
+				<ul class="nav-contacts list">
+					<li class="nav-contacts-item">
+						<a href="mailto:info@devstudio.com" class="phone-and-email">
+							<img src="photo/email.svg" alt="email" class="svg-email-and-phone">info@devstudio.com </a>
 					</li>
-					<li class="footer-list-item main-footer-item">
-						<h2 class="social-agitation" data-aos="fade-up" data-aos-duration="800">Приєднуйтесь</h2>
-						<ul class="footer-join-list">
-							<li data-aos="fade-left" data-aos-duration="800">
-								<a href="#" target="_blank">
-									<img src="photo/instagram.svg" alt="instagram" class="icons">
-								</a>
-							</li>
-							<li data-aos="fade-left" data-aos-duration="1000">
-								<a href="#" target="_blank">
-									<img src="photo/twitter2.svg" alt="twiter" class="icons">
-								</a>
-							</li>
-							<li data-aos="fade-left" data-aos-duration="1200">
-								<a href="#" target="_blank">
-									<img src="photo/facebook.svg" alt="facebook" class="icons">
-								</a>
-							</li>
-							<li data-aos="fade-left" data-aos-duration="1400">
-								<a href="#" target="_blank">
-									<img src="photo/in.svg" alt="in" class="icons">
-								</a>
-							</li>
-						</ul>
-					</li>
-					<li>
-						<h2 class="social-agitation2" data-aos="fade-up" data-aos-duration="1000">Підпишіться на розсилку</h2>
-						<form class="footer-form">
-							<input placeholder="E-mail" type="email" class="footer-input" data-aos="fade-left" data-aos-duration="1000">
-							<button class="footer-button" type="submit" data-aos="fade-left" data-aos-duration="1200">Підписатися <img src="photo/tg.svg" alt="tg" class="tg-icon" data-aos="fade-left" data-aos-duration="1000"></button>
-						</form>
+					<li class="nav-contacts-item">
+						<a href="tel:+380961111111" class="phone-and-email">
+							<img src="photo/smartphone.svg" alt="smartphone" class="svg-email-and-phone">+38 096 111 11
+							11 </a>
 					</li>
 				</ul>
 			</div>
-		</footer>
-		<script src="modal.js"></script>
-		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-		<script>
-			AOS.init();
-		  </script>
-	</body>
+		</div>
+	</header>
+	<main>
+		<section class="hero">
+			<div class="container container--with-button">
+				<h1 class="hero__main-text" data-aos="fade-up-right" data-aos-duration="1400">Ефективні рішення
+					для<br>вашого бізнесу</h1>
+				<button type="button" data-modal-open class="hero__order-button">Замовити послугу</button>
+				<div class="backdrop is-hidden" data-modal>
+					<div class="modal">
+						<img src="photo/closemodal.svg" alt="close modal" class="modal__close" data-modal-close>
+						<h3 class="modal__title">Залиште свої дані, ми вам передзвонимо</h3>
+						<form class="modal__form">
+							<div class="form__item">
+								<p class="form__input-info">Ім'я</p>
+								<img src="photo/user.svg" alt="name" class="form__img">
+								<input type="text" id="name" name="name" class="form__form-input" required>
+							</div>
+							<div class="form__item">
+								<p class="form__input-info">Телефон</p>
+								<img src="photo/phone.svg" alt="phone" class="form__img">
+								<input type="tel" id="phone" name="phone" class="form__form-input" required>
+							</div>
+							<div class="form__item">
+								<p class="form__input-info">Пошта</p>
+								<img src="photo/contact-email.svg" alt="email" class="form__img">
+								<input type="email" id="email" name="email" class="form__form-input" required>
+							</div>
+							<div class="form__item">
+								<p class="form__input-info">Коментар</p>
+								<textarea class="form__comment" name="comment" placeholder="Введіть текст"></textarea>
+							</div>
+							<div class="form__rules-div">
+								<label for="agree" class="form__label">
+									<input type="checkbox" name="agree" value="agree" id="agree"
+										class="form__agree-checkbox">
+									<span class="form__accept-rules">Погоджуюся з розсилкою та приймаю <a href="#"
+											class="form__accept-rules-link">Умови договору</a></span>
+								</label>
+							</div>
+							<button type="submit" class="form__order-button" data-modal-close>Відправити</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="section">
+			<div class="container">
+				<ul class="feature-list">
+					<li class="feature-list__item">
+						<img src="photo/Group1.svg" alt="#">
+						<h3 class="feature-list__title" data-aos="fade-up-right" data-aos-duration="1300">УВАГА ДО
+							ДЕТАЛЕЙ
+						</h3>
+						<p class="feature-list__description" data-aos="fade-up-right" data-aos-duration="1600">Ідейні
+							міркування, і навіть початок повсякденної роботи з формування позиції. </p>
+					</li>
+					<li class="feature-list__item">
+						<img src="photo/Group2.svg" alt="#">
+						<h3 class="feature-list__title" data-aos="fade-up-right" data-aos-duration="1300">ПУНКТУАЛЬНІСТЬ
+						</h3>
+						<p class="feature-list__description" data-aos="fade-up-right" data-aos-duration="1600">Завдання
+							організації, особливо рамки і місце навчання кадрів тягне у себе. </p>
+					</li>
+					<li class="feature-list__item">
+						<img src="photo/Group3.svg" alt="#">
+						<h3 class="feature-list__title" data-aos="fade-up-right" data-aos-duration="1300">ПЛАНУВАННЯ
+						</h3>
+						<p class="feature-list__description" data-aos="fade-up-right" data-aos-duration="1600">Так само
+							консультація з широким активом значною мірою зумовлює.</p>
+					</li>
+					<li class="feature-list__item">
+						<img src="photo/Group4.svg" alt="#">
+						<h3 class="feature-list__title" data-aos="fade-up-right" data-aos-duration="1300">СУЧАСНІ
+							ТЕХНОЛОГІЇ
+						</h3>
+						<p class="feature-list__description" data-aos="fade-up-right" data-aos-duration="1600">
+							Значимість цих
+							проблем настільки очевидна, що реалізація планових завдань. </p>
+					</li>
+				</ul>
+			</div>
+		</section>
+		<section class="section work-section">
+			<div class="container">
+				<h2 class="section-title" data-aos="fade-up" data-aos-duration="1400">Чим ми займаємося</h2>
+				<ul class="work-list">
+					<li class="work-list__item" data-aos="fade-up-right" data-aos-duration="1400">
+						<img src="photo/1.jpg" alt="Написання коду" class="work-list__img">
+						<h3 class="work-list__description">Десктопні додатки</h3>
+					</li>
+					<li class="work-list__item" data-aos="fade-up" data-aos-duration="1400">
+						<img src="photo/2.jpg" alt="Розробка сайту" class="work-list__img">
+						<h3 class="work-list__description">Мобільні додатки</h3>
+					</li>
+					<li class="work-list__item" data-aos="fade-up-left" data-aos-duration="1400">
+						<img src="photo/3.jpg" alt="Підбір кольорів" class="work-list__img">
+						<h3 class="work-list__description">Дизайнерські рішення</h3>
+					</li>
+				</ul>
+			</div>
+		</section>
+		<section class="section alt-bg">
+			<div class="container">
+				<h3 class="section-title" data-aos="fade-up" data-aos-duration="1400">Наша команда</h3>
+				<ul class="team-list">
+					<li class="team-list__item" data-aos="fade-up" data-aos-duration="1400">
+						<img src="photo/4.jpg" alt="Ігор Дем'яненко" class="team-list__img">
+						<p class="team-list__text" data-aos="fade-right" data-aos-duration="1500">Ігор Дем'яненко</p>
+						<p class="team-list__answer" data-aos="fade-right" data-aos-duration="1600">Product Designer</p>
+						<div data-aos="fade-up" data-aos-duration="1600">
+							<a href="#" target="_blank">
+								<img src="photo/instagram2.svg" alt="instagram" class="social-icon">
+							</a>
+							<a href="#" target="_blank">
+								<img src="photo/twitter.svg" alt="twiter" class="social-icon">
+							</a>
+							<a href="#" target="_blank">
+								<img src="photo/facebook2.svg" alt="facebook" class="social-icon">
+							</a>
+							<a href="#" target="_blank">
+								<img src="photo/in2.svg" alt="in" class="social-icon">
+							</a>
+						</div>
+					</li>
+					<li class="team-list__item" data-aos="fade-up" data-aos-duration="1600">
+						<img src="photo/5.jpg" alt="Ольга Рєпіна" class="team-list__img">
+						<p class="team-list__text" data-aos="fade-right" data-aos-duration="1700">Ольга Рєпіна</p>
+						<p class="team-list__answer" data-aos="fade-right" data-aos-duration="1800">Frontend Developer
+						</p>
+						<div data-aos="fade-up" data-aos-duration="1800">
+							<a href="#" target="_blank">
+								<img src="photo/instagram2.svg" alt="instagram" class="social-icon">
+							</a>
+							<a href="#" target="_blank">
+								<img src="photo/twitter.svg" alt="twiter" class="social-icon">
+							</a>
+							<a href="#" target="_blank">
+								<img src="photo/facebook2.svg" alt="facebook" class="social-icon">
+							</a>
+							<a href="#" target="_blank">
+								<img src="photo/in2.svg" alt="in" class="social-icon">
+							</a>
+						</div>
+					</li>
+					<li class="team-list__item" data-aos="fade-up" data-aos-duration="1800">
+						<img src="photo/6.jpg" alt="Микола Тарасов" class="team-list__img">
+						<p class="team-list__text" data-aos="fade-left" data-aos-duration="1900">Микола Тарасов</p>
+						<p class="team-list__answer" data-aos="fade-left" data-aos-duration="2000">Marketing</p>
+						<div data-aos="fade-up" data-aos-duration="2000">
+							<a href="#" target="_blank">
+								<img src="photo/instagram2.svg" alt="instagram" class="social-icon">
+							</a>
+							<a href="#" target="_blank">
+								<img src="photo/twitter.svg" alt="twiter" class="social-icon">
+							</a>
+							<a href="#" target="_blank">
+								<img src="photo/facebook2.svg" alt="facebook" class="social-icon">
+							</a>
+							<a href="#" target="_blank">
+								<img src="photo/in2.svg" alt="in" class="social-icon">
+							</a>
+						</div>
+					</li>
+					<li class="team-list__item" data-aos="fade-up" data-aos-duration="2000">
+						<img src="photo/7.jpg" alt="Михайло Єрмаков" class="team-list__img">
+						<p class="team-list__text" data-aos="fade-left" data-aos-duration="2100">Михайло Єрмаков</p>
+						<p class="team-list__answer" data-aos="fade-left" data-aos-duration="2200">UI Designer</p>
+						<div data-aos="fade-up" data-aos-duration="2200">
+							<a href="#" target="_blank">
+								<img src="photo/instagram2.svg" alt="instagram" class="social-icon">
+							</a>
+							<a href="#" target="_blank">
+								<img src="photo/twitter.svg" alt="twiter" class="social-icon">
+							</a>
+							<a href="#" target="_blank">
+								<img src="photo/facebook2.svg" alt="facebook" class="social-icon">
+							</a>
+							<a href="#" target="_blank">
+								<img src="photo/in2.svg" alt="in" class="social-icon">
+							</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</section>
+		<section class="section">
+			<div class="container">
+				<h3 class="section-title" data-aos="fade-up" data-aos-duration="1400">Постійні клієнти</h3>
+				<ul class="clients-list">
+					<li class="clients-list__item" data-aos="fade-up-right" data-aos-duration="1400">
+						<a href="#" target="_blank">
+							<img src="photo/Client1.svg" alt="client">
+						</a>
+					</li>
+					<li class="clients-list__item" data-aos="fade-up-right" data-aos-duration="1200">
+						<a href="#" target="_blank">
+							<img src="photo/Client2.svg" alt="client">
+						</a>
+					</li>
+					<li class="clients-list__item" data-aos="fade-up" data-aos-duration="1000">
+						<a href="#" target="_blank">
+							<img src="photo/Client3.svg" alt="client">
+						</a>
+					</li>
+					<li class="clients-list__item" data-aos="fade-up" data-aos-duration="1000">
+						<a href="#" target="_blank">
+							<img src="photo/client4.svg" alt="client">
+						</a>
+					</li>
+					<li class="clients-list__item" data-aos="fade-up-left" data-aos-duration="1200">
+						<a href="#" target="_blank">
+							<img src="photo/Client5.svg" alt="client">
+						</a>
+					</li>
+					<li class="clients-list__item" data-aos="fade-up-left" data-aos-duration="1400">
+						<a href="#" target="_blank">
+							<img src="photo/Client5.svg" alt="client">
+						</a>
+					</li>
+				</ul>
+			</div>
+		</section>
+	</main>
+	<footer class="footer-section">
+		<div class="container">
+			<ul class="footer-list">
+				<li class="footer-list__item">
+					<a href="index.html">
+						<span class="span-logo1">Web</span><span class="span-logo2 span-logo-footer">Studio</span>
+					</a>
+					<ul class="footer-contacts list">
+						<li class="footer-contacts-item">
+							<a href="https://maps.app.goo.gl/JQiqGjMTHEHK7diV7" target="_blank"
+								class="geolocation phone-and-email">м. Київ, пр-т Лесі Українки, 26</a>
+						</li>
+						<li class="footer-contacts-item">
+							<a href="mailto:info@devstudio.com" class="phone-and-email">info@devstudio.com</a>
+						</li>
+						<li class="footer-contacts-item">
+							<a href="tel:+380961111111" class="phone-and-email">+38 096 111 11 11</a>
+						</li>
+					</ul>
+				</li>
+				<li class="footer-list__item footer-list__main-item">
+					<h2 class="footer-list__social-agitation" data-aos="fade-up" data-aos-duration="800">Приєднуйтесь
+					</h2>
+					<ul class="footer-list__join-list">
+						<li data-aos="fade-left" data-aos-duration="800">
+							<a href="#" target="_blank">
+								<img src="photo/instagram.svg" alt="instagram" class="icons">
+							</a>
+						</li>
+						<li data-aos="fade-left" data-aos-duration="1000">
+							<a href="#" target="_blank">
+								<img src="photo/twitter2.svg" alt="twiter" class="icons">
+							</a>
+						</li>
+						<li data-aos="fade-left" data-aos-duration="1200">
+							<a href="#" target="_blank">
+								<img src="photo/facebook.svg" alt="facebook" class="icons">
+							</a>
+						</li>
+						<li data-aos="fade-left" data-aos-duration="1400">
+							<a href="#" target="_blank">
+								<img src="photo/in.svg" alt="in" class="icons">
+							</a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<h2 class="footer-list__social-agitation2" data-aos="fade-up" data-aos-duration="1000">Підпишіться
+						на розсилку</h2>
+					<form class="footer-form">
+						<input placeholder="E-mail" type="email" class="footer-input" data-aos="fade-left"
+							data-aos-duration="1000">
+						<button class="footer-button" type="submit" data-aos="fade-left"
+							data-aos-duration="1200">Підписатися <img src="photo/tg.svg" alt="tg" class="tg-icon"
+								data-aos="fade-left" data-aos-duration="1000"></button>
+					</form>
+				</li>
+			</ul>
+		</div>
+	</footer>
+	<script src="modal.js"></script>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+		AOS.init();
+	</script>
+</body>
+
 </html>

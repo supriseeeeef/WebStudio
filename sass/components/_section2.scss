@@ -1,11 +1,11 @@
-.main-text-ul {
+.feature-list {
   display: flex;
   justify-content: space-between;
   margin: 0;
   padding: 0;
 }
 
-.main-text {
+.feature-list__item {
   color: #212121;
   font-family: Roboto;
   font-size: 14px;
@@ -15,11 +15,11 @@
   text-align: left;
 }
 
-.main-text-item {
+.feature-list__title {
   margin-left: 30px;
 }
 
-.main-text-answer {
+.feature-list__description {
   color: #757575;
   font-family: Roboto;
   font-size: 14px;

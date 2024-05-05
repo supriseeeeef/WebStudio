@@ -19,7 +19,7 @@
   padding-top: 10px;
 }
 
-.footer-contacts-item {
+.footer-list__item {
   margin-top: 10px;
 }
 
@@ -27,11 +27,11 @@
   color: #ffffff;
 }
 
-.main-footer-item {
+.footer-list__main-item {
   margin: 0 93px 0 70px;
 }
 
-.social-agitation {
+.footer-list__social-agitation {
   font-family: Roboto;
   font-size: 14px;
   font-weight: 700;
@@ -41,7 +41,7 @@
   text-transform: uppercase;
 }
 
-.footer-join-list {
+.footer-list__join-list {
   display: flex;
   padding: 0;
   gap: 10px;
@@ -51,7 +51,7 @@
   display: flex;
 }
 
-.social-agitation2 {
+.footer-list__social-agitation2 {
   font-family: Roboto;
   font-size: 14px;
   font-weight: 700;

@@ -55,17 +55,17 @@
   display: flex;
 }
 
-.site-nav-item,
+.site-nav__item,
 .nav-contacts-item {
   margin-right: 50px;
 }
 
-.site-nav-item:last-child,
+.site-nav__item:last-child,
 .nav-contacts-item:last-child {
   margin-right: 0;
 }
 
-.nav-links {
+.site-nav__link {
   color: #212121;
   font-family: Roboto;
   font-size: 14px;

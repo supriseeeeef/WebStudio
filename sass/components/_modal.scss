@@ -27,11 +27,11 @@
   transform: translate(-50%, -50%);
 }
 
-.close-modal-img {
+.modal__close {
   float: right;
 }
 
-.modal-title {
+.modal__title {
   margin: 25px 40px 12px 40px;
   font-family: Roboto;
   font-size: 20px;
@@ -41,17 +41,17 @@
   color: #212121;
 }
 
-.modal-form {
+.modal__form {
   margin-left: 25px;
   margin-right: 25px;
   margin-bottom: 40px;
 }
 
-.contact-form-item {
+.form__item {
   position: relative;
 }
 
-.form-input-info {
+.form__input-info {
   font-family: Roboto;
   font-size: 12px;
   font-weight: 400;
@@ -61,13 +61,13 @@
   color: #757575;
 }
 
-.modal-img {
+.form__img {
   position: absolute;
   top: 40px;
   left: 10px;
 }
 
-.contact-form-input {
+.form__form-input {
   width: 448px;
   height: 40px;
   border-radius: 4px;
@@ -79,7 +79,7 @@
   }
 }
 
-.comment {
+.form__comment {
   &:hover,
   &:focus {
     border: 1px solid #1976d2;
@@ -93,7 +93,11 @@
   padding: 5px;
 }
 
-.modal-accept-rules {
+.form__rules-div {
+  padding: 20px 0 30px 0;
+}
+
+.form__accept-rules {
   font-family: Roboto;
   font-size: 14px;
   font-weight: 400;
@@ -103,7 +107,7 @@
   color: #757575;
 }
 
-.modal-accept-rules-link {
+.form__accept-rules-link {
   font-family: Roboto;
   font-size: 14px;
   font-weight: 400;
@@ -114,6 +118,30 @@
   color: #2196f3;
 }
 
-.modal-accept-rules-div {
-  padding: 20px 0 30px 0;
+.form__order-button {
+  color: #ffffff;
+  background-color: #2196f3;
+  text-shadow: 1px 1px 1px #2f303a;
+  box-shadow: 0px 4px 4px #000000;
+  border: none;
+  border-radius: 4px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+  margin: 0;
+  padding: 10px 32px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover {
+    transform: scale(1.1);
+    background-color: #1976d2;
+  }
+
+  &:active {
+    transform: scale(0.9);
+  }
 }
