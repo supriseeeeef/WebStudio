@@ -1,40 +1,38 @@
 .border-header {
-  border-bottom: 1px solid #ececec;
+  border-bottom: 1px solid $header;
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: white;
+  background-color: $white;
   z-index: 2;
+}
 
-  .header {
-    display: flex;
-    height: 80px;
-    align-items: center;
-    justify-content: start;
-
-    .span-logo1 {
-      color: #2196f3;
-      font-family: Raleway;
-      font-size: 26px;
-      font-weight: 700;
-      line-height: 31px;
-      letter-spacing: 0.03em;
-      text-align: left;
-    }
-
-    .span-logo2 {
-      color: #000000;
-      font-family: Oleo Script;
-      font-size: 26px;
-      font-weight: 400;
-      line-height: 36px;
-      letter-spacing: 0.03em;
-      text-align: left;
-      margin-right: 93px;
-    }
+.header {
+  display: flex;
+  height: 80px;
+  align-items: center;
+  justify-content: start;
+  &__logo1 {
+    color: $active-color;
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    text-align: left;
   }
 
-  .main-nav {
+  &__logo2 {
+    font-family: Oleo Script;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    margin-right: 93px;
+  }
+
+  &__main-nav {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -49,82 +47,80 @@
       opacity: 1;
     }
   }
+}
 
-  .site-nav {
-    display: flex;
+.site-nav {
+  display: flex;
+  &__link {
+    color: $nav-link;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    transition: color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 
-    .site-nav__item,
-    .nav-contacts-item {
-      margin-right: 50px;
-
-      &:last-child {
-        margin-right: 0;
-      }
+    &:hover {
+      color: $active-color;
     }
+  }
+  &__item {
+    margin-right: 50px;
+  }
 
-    .site-nav__link {
-      color: #212121;
-      font-family: Roboto;
-      font-size: 14px;
-      font-weight: 500;
-      line-height: 16px;
-      letter-spacing: 0.02em;
-      transition: color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  &__item:last-child {
+    margin-right: 0;
+  }
+}
 
-      &:hover {
-        color: #2196f3;
+.active {
+  color: $active-color;
+  &::after {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 70px;
+    height: 4px;
+    border-radius: 2px;
+    background-color: $active-color;
+    top: 77px;
+    animation: active-bar-grow 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    animation-duration: 1000ms;
+    @keyframes active-bar-grow {
+      0% {
+        width: 10px;
+        opacity: 0;
       }
-    }
-
-    .active {
-      color: #2196f3;
-
-      &::after {
-        position: absolute;
-        content: "";
-        display: block;
+      100% {
         width: 70px;
-        height: 4px;
-        border-radius: 2px;
-        background-color: #2196f3;
-        top: 77px;
-        animation: active-bar-grow 0.5s cubic-bezier(0.4, 0, 0.2, 1);
-        animation-duration: 1000ms;
+        opacity: 1;
       }
     }
   }
+}
 
-  @keyframes active-bar-grow {
-    0% {
-      width: 10px;
-      opacity: 0;
-    }
-
-    100% {
-      width: 70px;
-      opacity: 1;
+.contacts {
+  display: flex;
+  &__phone-and-email {
+    color: $contacts;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    transition: color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover {
+      color: $active-color;
     }
   }
 
-  .nav-contacts {
-    display: flex;
-
-    .phone-and-email {
-      color: #757575;
-      font-family: Roboto;
-      font-size: 14px;
-      font-weight: 500;
-      line-height: 16px;
-      letter-spacing: 0.02em;
-      transition: color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
-
-      &:hover {
-        color: #2196f3;
-      }
-    }
-
-    .svg-email-and-phone {
-      padding-right: 10px;
-    }
+  &__img {
+    padding-right: 10px;
+  }
+  &__item {
+    margin-right: 50px;
+  }
+  &__item:last-child {
+    margin-right: 0;
   }
 }

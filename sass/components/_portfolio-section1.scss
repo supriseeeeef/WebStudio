@@ -5,27 +5,26 @@
 .filter {
   text-align: center;
   padding: 94px 0 34px 0;
-}
-
-.filter__buttons {
-  color: #212121;
-  background-color: #f5f4fa;
-  border: none;
-  font-family: Roboto;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 26px;
-  letter-spacing: 0.03em;
-  text-align: center;
-  margin: 0 4px;
-  border-radius: 4px;
-  padding: 6px 22px;
-  cursor: pointer;
-  transition: background-color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
-  &:hover,
-  &:focus {
-    background-color: #2196f3;
-    color: white;
+  &__buttons {
+    color: $nav-link;
+    background-color: $alt-bg;
+    border: none;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    margin: 0 4px;
+    border-radius: 4px;
+    padding: 6px 22px;
+    cursor: pointer;
+    transition: background-color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus {
+      background-color: $active-color;
+      color: $white;
+    }
   }
 }
 
@@ -34,44 +33,43 @@
   flex-wrap: wrap;
   margin-top: 34px;
   gap: 30px;
-}
+  &__item {
+    position: relative;
+    flex-basis: 30%;
+    border: 1px solid $site-list-color;
+    box-shadow: 1px 4px 6px 0px #00000029;
+    box-shadow: 0px 4px 4px 0px #0000000f;
+    box-shadow: 0px 1px 1px 0px #0000001f;
 
-.sites-list__item {
-  position: relative;
-  flex-basis: 30%;
-  border: 1px solid #eeeeee;
-  box-shadow: 1px 4px 6px 0px #00000029;
-  box-shadow: 0px 4px 4px 0px #0000000f;
-  box-shadow: 0px 1px 1px 0px #0000001f;
-
-  &:hover {
+    &:hover {
+    }
   }
-}
 
-.sites-list__img {
-  max-width: 100%;
-  height: auto;
-}
+  &__img {
+    max-width: 100%;
+    height: auto;
+  }
 
-.sites-list__main-text {
-  color: #212121;
-  font-family: Roboto;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 36px;
-  letter-spacing: 0.06em;
-  text-align: left;
-  margin-left: 24px;
-  margin: 20px 24px 0 24px;
-}
+  &__main-text {
+    color: $nav-link;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    text-align: left;
+    margin-left: 24px;
+    margin: 20px 24px 0 24px;
+  }
 
-.sites-list__link {
-  color: #757575;
-  font-family: Roboto;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 30px;
-  letter-spacing: 0.03em;
-  text-align: left;
-  margin-left: 24px;
+  &__link {
+    color: $contacts;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    margin-left: 24px;
+  }
 }

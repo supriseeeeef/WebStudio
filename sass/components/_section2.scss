@@ -3,28 +3,27 @@
   justify-content: space-between;
   margin: 0;
   padding: 0;
-}
+  &-list__item {
+    color: $nav-link;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-align: left;
+  }
 
-.feature-list__item {
-  color: #212121;
-  font-family: Roboto;
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  text-align: left;
-}
+  &-list__title {
+    margin-left: 30px;
+  }
 
-.feature-list__title {
-  margin-left: 30px;
-}
-
-.feature-list__description {
-  color: #757575;
-  font-family: Roboto;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.03em;
-  text-align: left;
+  &-list__description {
+    color: $contacts;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: left;
+  }
 }

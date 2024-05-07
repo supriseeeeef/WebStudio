@@ -7,6 +7,105 @@
 .footer-list {
   display: flex;
   padding: 0;
+  &__item {
+    margin-top: 10px;
+  }
+  &__logo1 {
+    color: #2196f3;
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    text-align: left;
+  }
+
+  &__logo2 {
+    color: #000000;
+    font-family: Oleo Script;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    margin-right: 93px;
+  }
+  &__main-item {
+    margin: 0 93px 0 70px;
+  }
+
+  &__social-agitation {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+    text-transform: uppercase;
+  }
+
+  &__join-list {
+    display: flex;
+    padding: 0;
+    gap: 10px;
+  }
+  &__social-agitation2 {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+    text-transform: uppercase;
+  }
+  &__form {
+    display: flex;
+  }
+
+  &__input {
+    width: 358px;
+    height: 50px;
+    border-radius: 4px;
+    border: 1px solid #ffffff4d;
+    background-color: inherit;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #ffffff99;
+    padding-left: 16px;
+  }
+
+  &__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 12px;
+    width: 200px;
+    height: 50px;
+    border-radius: 4px;
+    border: none;
+    background: #2196f3;
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    &:hover {
+      transform: scale(1.1);
+      background-color: #1976d2;
+    }
+    &:active {
+      transform: scale(0.9);
+    }
+  }
+  &__tg {
+    margin-left: 10px;
+  }
 }
 
 .span-logo-footer {
@@ -19,90 +118,6 @@
   padding-top: 10px;
 }
 
-.footer-list__item {
-  margin-top: 10px;
-}
-
 .geolocation {
   color: #ffffff;
-}
-
-.footer-list__main-item {
-  margin: 0 93px 0 70px;
-}
-
-.footer-list__social-agitation {
-  font-family: Roboto;
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  color: #ffffff;
-  text-transform: uppercase;
-}
-
-.footer-list__join-list {
-  display: flex;
-  padding: 0;
-  gap: 10px;
-}
-
-.footer-form {
-  display: flex;
-}
-
-.footer-list__social-agitation2 {
-  font-family: Roboto;
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  color: #ffffff;
-  text-transform: uppercase;
-}
-
-.footer-input {
-  width: 358px;
-  height: 50px;
-  border-radius: 4px;
-  border: 1px solid #ffffff4d;
-  background-color: inherit;
-  font-family: Roboto;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 20px;
-  letter-spacing: 0.03em;
-  text-align: left;
-  color: #ffffff99;
-  padding-left: 16px;
-}
-
-.footer-button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-left: 12px;
-  width: 200px;
-  height: 50px;
-  border-radius: 4px;
-  border: none;
-  background: #2196f3;
-  color: #ffffff;
-  font-family: Roboto;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 30px;
-  letter-spacing: 0.06em;
-  text-align: center;
-  &:hover {
-    transform: scale(1.1);
-    background-color: #1976d2;
-  }
-  &:active {
-    transform: scale(0.9);
-  }
-}
-
-.tg-icon {
-  margin-left: 10px;
 }

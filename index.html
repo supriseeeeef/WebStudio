@@ -19,9 +19,9 @@
 	<header class="border-header">
 		<div class="container header">
 			<a href="index.html" data-aos="zoom-in" data-aos-duration="1000">
-				<span class="span-logo1">Web</span><span class="span-logo2">Studio</span>
+				<span class="header__logo1">Web</span><span class="header__logo2">Studio</span>
 			</a>
-			<div class="main-nav">
+			<div class="header__main-nav">
 				<nav>
 					<ul class="site-nav list">
 						<li class="site-nav__item">
@@ -35,14 +35,14 @@
 						</li>
 					</ul>
 				</nav>
-				<ul class="nav-contacts list">
-					<li class="nav-contacts-item">
-						<a href="mailto:info@devstudio.com" class="phone-and-email">
-							<img src="photo/email.svg" alt="email" class="svg-email-and-phone">info@devstudio.com </a>
+				<ul class="contacts list">
+					<li class="contacts__item">
+						<a href="mailto:info@devstudio.com" class="contacts__phone-and-email">
+							<img src="photo/email.svg" alt="email" class="contacts__img">info@devstudio.com </a>
 					</li>
-					<li class="nav-contacts-item">
-						<a href="tel:+380961111111" class="phone-and-email">
-							<img src="photo/smartphone.svg" alt="smartphone" class="svg-email-and-phone">+38 096 111 11
+					<li class="contacts__item">
+						<a href="tel:+380961111111" class="contacts__phone-and-email">
+							<img src="photo/smartphone.svg" alt="smartphone" class="contacts__img">+38 096 111 11
 							11 </a>
 					</li>
 				</ul>
@@ -51,7 +51,7 @@
 	</header>
 	<main>
 		<section class="hero">
-			<div class="container container--with-button">
+			<div class="container hero__container-button">
 				<h1 class="hero__main-text" data-aos="fade-up-right" data-aos-duration="1400">Ефективні рішення
 					для<br>вашого бізнесу</h1>
 				<button type="button" data-modal-open class="hero__order-button">Замовити послугу</button>
@@ -59,7 +59,7 @@
 					<div class="modal">
 						<img src="photo/closemodal.svg" alt="close modal" class="modal__close" data-modal-close>
 						<h3 class="modal__title">Залиште свої дані, ми вам передзвонимо</h3>
-						<form class="modal__form">
+						<form class="form">
 							<div class="form__item">
 								<p class="form__input-info">Ім'я</p>
 								<img src="photo/user.svg" alt="name" class="form__img">
@@ -276,18 +276,18 @@
 			<ul class="footer-list">
 				<li class="footer-list__item">
 					<a href="index.html">
-						<span class="span-logo1">Web</span><span class="span-logo2 span-logo-footer">Studio</span>
+						<span class="footer-list__logo1">Web</span><span class="footer-list__logo2 span-logo-footer">Studio</span>
 					</a>
 					<ul class="footer-contacts list">
-						<li class="footer-contacts-item">
+						<li class="footer-contacts__item">
 							<a href="https://maps.app.goo.gl/JQiqGjMTHEHK7diV7" target="_blank"
 								class="geolocation phone-and-email">м. Київ, пр-т Лесі Українки, 26</a>
 						</li>
-						<li class="footer-contacts-item">
-							<a href="mailto:info@devstudio.com" class="phone-and-email">info@devstudio.com</a>
+						<li class="footer-contacts__item">
+							<a href="mailto:info@devstudio.com" class="contacts__phone-and-email">info@devstudio.com</a>
 						</li>
-						<li class="footer-contacts-item">
-							<a href="tel:+380961111111" class="phone-and-email">+38 096 111 11 11</a>
+						<li class="footer-contacts__item">
+							<a href="tel:+380961111111" class="contacts__phone-and-email">+38 096 111 11 11</a>
 						</li>
 					</ul>
 				</li>
@@ -320,11 +320,11 @@
 				<li>
 					<h2 class="footer-list__social-agitation2" data-aos="fade-up" data-aos-duration="1000">Підпишіться
 						на розсилку</h2>
-					<form class="footer-form">
-						<input placeholder="E-mail" type="email" class="footer-input" data-aos="fade-left"
+					<form class="footer-list__form">
+						<input placeholder="E-mail" type="email" class="footer-list__input" data-aos="fade-left"
 							data-aos-duration="1000">
-						<button class="footer-button" type="submit" data-aos="fade-left"
-							data-aos-duration="1200">Підписатися <img src="photo/tg.svg" alt="tg" class="tg-icon"
+						<button class="footer-list__button" type="submit" data-aos="fade-left"
+							data-aos-duration="1200">Підписатися <img src="photo/tg.svg" alt="tg" class="footer-list__tg"
 								data-aos="fade-left" data-aos-duration="1000"></button>
 					</form>
 				</li>
