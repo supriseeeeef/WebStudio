@@ -22,7 +22,7 @@
     color: $white;
     background-color: $active-color;
     text-shadow: 1px 1px 1px $shadow;
-    box-shadow: 0px 4px 4px #000000;
+    box-shadow: 0px 4px 4px $black;
     border: none;
     border-radius: 4px;
     font-family: Roboto;
@@ -38,7 +38,7 @@
 
     &:hover {
       transform: scale(1.1);
-      background-color: #1976d2;
+      background-color: $modal-hover;
     }
 
     &:active {

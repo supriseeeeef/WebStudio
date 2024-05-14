@@ -1,5 +1,5 @@
 .footer-section {
-  background-color: #2f303a;
+  background-color: $shadow;
   align-items: baseline;
   padding: 60px 0;
 }
@@ -11,7 +11,7 @@
     margin-top: 10px;
   }
   &__logo1 {
-    color: #2196f3;
+    color: $active-color;
     font-family: Raleway;
     font-size: 26px;
     font-weight: 700;
@@ -21,7 +21,7 @@
   }
 
   &__logo2 {
-    color: #000000;
+    color: $black;
     font-family: Oleo Script;
     font-size: 26px;
     font-weight: 400;
@@ -40,7 +40,7 @@
     font-weight: 700;
     line-height: 16px;
     letter-spacing: 0.03em;
-    color: #ffffff;
+    color: $white;
     text-transform: uppercase;
   }
 
@@ -55,7 +55,7 @@
     font-weight: 700;
     line-height: 16px;
     letter-spacing: 0.03em;
-    color: #ffffff;
+    color: $white;
     text-transform: uppercase;
   }
   &__form {
@@ -87,8 +87,8 @@
     height: 50px;
     border-radius: 4px;
     border: none;
-    background: #2196f3;
-    color: #ffffff;
+    background: $active-color;
+    color: $white;
     font-family: Roboto;
     font-size: 16px;
     font-weight: 700;
@@ -97,7 +97,7 @@
     text-align: center;
     &:hover {
       transform: scale(1.1);
-      background-color: #1976d2;
+      background-color: $modal-hover;
     }
     &:active {
       transform: scale(0.9);
@@ -109,7 +109,7 @@
 }
 
 .span-logo-footer {
-  color: #ffffff;
+  color: $white;
 }
 
 .footer-contacts {
@@ -119,5 +119,5 @@
 }
 
 .geolocation {
-  color: #ffffff;
+  color: $white;
 }
