@@ -101,6 +101,13 @@
 
 .contacts {
   display: flex;
+  @media screen and (min-width: 768px) {
+    display: block;
+  }
+
+  @media screen and (min-width: 1200px) {
+    display: flex;
+  }
   &__phone-and-email {
     color: $contacts;
     font-family: Roboto;
@@ -109,6 +116,7 @@
     line-height: 16px;
     letter-spacing: 0.02em;
     transition: color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+    
     &:hover {
       color: $active-color;
     }

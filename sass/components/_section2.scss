@@ -1,10 +1,14 @@
 .feature-list {
-  display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 30px;
   margin: 0;
   padding: 0;
-  &-list__item {
+  display: flex;
+  flex-wrap: wrap;
+  
+  &__item {
     color: $nav-link;
+    width: 270px;
     font-family: Roboto;
     font-size: 14px;
     font-weight: 700;
@@ -13,11 +17,11 @@
     text-align: left;
   }
 
-  &-list__title {
+  &__title {
     margin-left: 30px;
   }
 
-  &-list__description {
+  &__description {
     color: $contacts;
     font-family: Roboto;
     font-size: 14px;

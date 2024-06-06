@@ -1,10 +1,18 @@
-.main {
-  margin: 94px 215px;
-}
+
 
 .filter {
+  margin-top: 60px;
   text-align: center;
-  padding: 94px 0 34px 0;
+  margin-bottom: 0px;
+  @media screen and (min-width: 480px) {
+    text-align: left;
+  }
+
+  @media screen and (min-width: 768px) {
+    text-align: center;
+  }
+
+  padding-top: 94px;
   &__buttons {
     color: $nav-link;
     background-color: $alt-bg;
@@ -15,7 +23,7 @@
     line-height: 26px;
     letter-spacing: 0.03em;
     text-align: center;
-    margin: 0 4px;
+    margin: 8px 4px;
     border-radius: 4px;
     padding: 6px 22px;
     cursor: pointer;
@@ -31,15 +39,15 @@
 .sites-list {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 34px;
   gap: 30px;
+  margin: 22px 0 0 0;
+  width: 110%;
+  padding: 0;
+  padding-bottom: 60px;
+  justify-content: center;
   &__item {
-    position: relative;
-    flex-basis: 30%;
     border: 1px solid $site-list-color;
-    box-shadow: 1px 4px 6px 0px #00000029;
-    box-shadow: 0px 4px 4px 0px #0000000f;
-    box-shadow: 0px 1px 1px 0px #0000001f;
+    box-shadow: 1px 4px 6px 0px #00000029, 0px 4px 4px 0px #0000000f, 0px 1px 1px 0px #0000001f;
 
     &:hover {
     }
@@ -58,7 +66,6 @@
     line-height: 36px;
     letter-spacing: 0.06em;
     text-align: left;
-    margin-left: 24px;
     margin: 20px 24px 0 24px;
   }
 

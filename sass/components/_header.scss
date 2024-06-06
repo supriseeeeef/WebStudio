@@ -65,6 +65,7 @@
       color: $active-color;
     }
   }
+  
   &__item {
     margin-right: 50px;
   }
@@ -102,6 +103,13 @@
 
 .contacts {
   display: flex;
+  @media screen and (min-width: 768px) {
+    display: block;
+  }
+
+  @media screen and (min-width: 1200px) {
+    display: flex;
+  }
   &__phone-and-email {
     color: $contacts;
     font-family: Roboto;
