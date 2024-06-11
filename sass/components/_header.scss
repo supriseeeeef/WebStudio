@@ -50,21 +50,6 @@
   }
 }
 
-.menu-toggle{
-  min-height: 40px;
-  min-width: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0 0 0 30px;
-  padding: 0;
-  background-color: transparent;
-  cursor: pointer;
-  border: none;
-  border-radius: 50%;
-  outline: none;
-}
-
 .site-nav {
   display: flex;
   &__link {
