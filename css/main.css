@@ -239,10 +239,19 @@
   display: -ms-flexbox;
   display: flex;
   text-align: center;
-  background-image: url("../photo/herobackground.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+@media (min-width: 320px) and (max-width: 1199px) {
+  .hero {
+    background-image: url("../img/herobackground@x1.jpg");
+  }
+}
+@media (min-width: 1200px) {
+  .hero {
+    background-image: url("../img/herobackground@x2.jpg");
+  }
 }
 .hero__main-text {
   font-family: Roboto;

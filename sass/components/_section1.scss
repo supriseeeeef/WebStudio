@@ -1,7 +1,12 @@
 .hero {
+  @media (min-width: 320px) and (max-width: 1199px) {
+    background-image: url("../img/herobackground@x1.jpg");
+  }
+  @media (min-width: 1200px) {
+    background-image: url("../img/herobackground@x2.jpg");
+  }
   display: flex;
   text-align: center;
-  background-image: url("../photo/herobackground.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
